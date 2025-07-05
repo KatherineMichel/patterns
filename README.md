@@ -195,101 +195,100 @@ See O'Reilly Media for Layer Supertype and maybe others after
 
 ### Enterprise Integration Patterns
 
-<!--
-https://www.amazon.ca/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683
-https://www.enterpriseintegrationpatterns.com/patterns/messaging/toc.html
--->
+* [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions by Gregor Hohpe and Bobby Woolf](https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
+* [Enterprise Integration Patterns Table of Contents](https://www.enterpriseintegrationpatterns.com/patterns/messaging/toc.html)
 
 Integration Styles	 
-* File Transfer
-* Shared Database
-* Remote Procedure Invocation
-* Messaging
+* [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html)
+* [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html)
+* [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html)
+* [Messaging](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html)
 
 Messaging Systems
-* Message Channel
-* Message
-* Pipes and Filters
-* Message Router
-* Message Translator
-* Message Endpoint
+* [Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageChannel.html)
+* [Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Message.html)
+* [Pipes and Filters](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PipesAndFilters.html)
+* [Message Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageRouter.html)
+* [Message Translator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageTranslator.html)
+* [Message Endpoint](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageEndpoint.html)
 
 Messaging Channels
-* Point-to-Point Channel
-* Publish-Subscribe Channel
-* Datatype Channel
-* Invalid Message Channel
-* Dead Letter Channel
-* Guaranteed Delivery
-* Channel Adapter
-* Messaging Bridge
-* Message Bus
+* [Point-to-Point Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PointToPointChannel.html)
+* [Publish-Subscribe Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PublishSubscribeChannel.html)
+* [Datatype Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DatatypeChannel.html)
+* [Invalid Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html)
+* [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html)
+* [Guaranteed Delivery](https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html)
+* [Channel Adapter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html)
+* [Messaging Bridge](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingBridge.html)
+* [Message Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html)
 
 Message Construction
-* Command Message
-* Document Message
-* Event Message
-* Request-Reply
-* Return Address
-* Correlation Identifier
-* Message Sequence
-* Message Expiration
-* Format Indicator
+* [Command Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html)
+* [Document Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html)
+* [Event Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html)
+* [Request-Reply](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RequestReply.html)
+* [Return Address](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html)
+* [Correlation Identifier](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CorrelationIdentifier.html)
+* [Message Sequence](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSequence.html)
+* [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html)
+* [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html)
 
+Message Routing
+* [Content-Based Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html)
+* [Message Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html)
+* [Dynamic Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html)
+* [Recipient List](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RecipientList.html)
+* [Splitter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Sequencer.html)
+* [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html)
+* [Resequencer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html)
+* [Composed Message Processor](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DistributionAggregate.html)
+* [Scatter-Gather](https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html)
+* [Routing Slip](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RoutingTable.html)
+* [Process Manager](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html)
+* [Message Broker](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html)
+
+Message Transformation
+* [Envelope Wrapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html)
+* [Content Enricher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html)
+* [Content Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentFilter.html)
+* [Claim Check](https://www.enterpriseintegrationpatterns.com/patterns/messaging/StoreInLibrary.html)
+* [Normalizer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Normalizer.html)
+* [Canonical Data Model](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html)
+
+Messaging Endpoints
+* [Messaging Gateway](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html)
+* [Messaging Mapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html)
+* [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html)
+* [Polling Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PollingConsumer.html)
+* [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html)
+* [Competing Consumers](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CompetingConsumers.html)
+* [Message Dispatcher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageDispatcher.html)
+* [Selective Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSelector.html)
+* [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html)
+* [Idempotent Receiver](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html)
+* [Service Activator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingAdapter.html)
+
+System Management
+* [Control Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html)
+* [Detour](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html)
+* [Wire Tap](https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html)
+* [Message History](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageHistory.html)
+* [Message Store	](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageStore.html)
+* [Smart Proxy](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SmartProxy.html)
+* [Test Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html)
+* [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html)
+
+<!--
 Simple Messaging Examples	 
 * JMS Request/Reply Example	 
 * .NET Request/Reply Example	 
 * JMS Publish/Subscribe Example
 
-Message Routing
-* Content-Based Router
-* Message Filter
-* Dynamic Router
-* Recipient List
-* Splitter
-* Aggregator
-* Resequencer
-* Composed Message Processor
-* Scatter-Gather
-* Routing Slip
-* Process Manager
-* Message Broker
-
-Message Transformation
-* Envelope Wrapper
-* Content Enricher
-* Content Filter
-* Claim Check
-* Normalizer
-* Canonical Data Model
-
 Composed Messaging Examples	 
 * Synchronous Implementation using Web Services	 
 * Asynchronous Implementation with MSMQ	 
 * Asynchronous Implementation with TIBCO ActiveEnterprise
-
-Messaging Endpoints
-* Messaging Gateway
-* Messaging Mapper
-* Transactional Client
-* Polling Consumer
-* Event-Driven Consumer
-* Competing Consumers
-* Message Dispatcher
-* Selective Consumer
-* Durable Subscriber
-* Idempotent Receiver
-* Service Activator
-
-System Management
-* Control Bus
-* Detour
-* Wire Tap
-* Message History
-* Message Store	
-* Smart Proxy
-* Test Message
-* Channel Purger
 
 Systems Management Example
 * Loan Broker System Management	 
@@ -299,6 +298,7 @@ Integration Patterns in Practice
 
 Concluding Remarks
 * Emerging Standards and Futures in Enterprise Integration
+-->
   
 ## Design Patterns
 
