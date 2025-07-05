@@ -91,38 +91,24 @@ Model-View-ViewModel
 ### Patterns of Enterprise Application Architecture
 
 * [Patterns of Enterprise Application Architecture by Martin Fowler](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
-* [Catalog of Patterns of Enterprise Application Architecture](https://martinfowler.com/eaaCatalog/)
+* [Catalog of Patterns of Enterprise Application Architecture](https://web.archive.org/web/20250521090928/https://martinfowler.com/eaaCatalog/)
 
 <!--
-https://martinfowler.com/articles/enterprisePatterns.html | Enterprise Patterns
--->
-
-Database
-* Foreign Key Mapping
-* Lazy Load
-
-Web Presentation Patterns: 
-* Model View Controller
-* Template View
-  
-<!--
-MVCs
-* [Model View Controller Wikipedia](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-* [Model View Controller Wikibook](http://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller)
-* [Model–view–viewmodel Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+List of other catalogues
+https://web.archive.org/web/20250514091941/https://martinfowler.com/articles/enterprisePatterns.html
 -->
 
 Domain Logic Patterns: 
-* Transaction Script
-* Domain Model
-* Table Module
-* Service Layer
+* [Transaction Script](https://web.archive.org/web/20250527074104/https://martinfowler.com/eaaCatalog/transactionScript.html)
+* [Domain Model](https://web.archive.org/web/20250522234653/https://martinfowler.com/eaaCatalog/domainModel.html)
+* [Table Module](https://web.archive.org/web/20250523131411/https://martinfowler.com/eaaCatalog/tableModule.html)
+* [Service Layer](https://web.archive.org/web/20250429072921/https://martinfowler.com/eaaCatalog/serviceLayer.html)
 
 Data Source Architectural Patterns: 
-* Table Data Gateway
-* Row Data Gateway
-* Active Record
-* Data Mapper 
+* [Table Data Gateway](https://web.archive.org/web/20250522020359/https://martinfowler.com/eaaCatalog/tableDataGateway.html)
+* [Row Data Gateway](https://web.archive.org/web/20240721061456/https://martinfowler.com/eaaCatalog/rowDataGateway.html)
+* [Active Record](https://web.archive.org/web/20250428214929/https://www.martinfowler.com/eaaCatalog/activeRecord.html)
+* [Data Mapper](https://web.archive.org/web/20250608154613/https://martinfowler.com/eaaCatalog/dataMapper.html)
 
 <!--
 https://martinfowler.com/eaaCatalog/domainModel.html
@@ -134,60 +120,79 @@ https://martinfowler.com/bliki/AnemicDomainModel.html | AnemicDomainModel
 -->
 
 Object-Relational Behavioral Patterns
-* Unit of Work
-* Identity Map
+* [Unit of Work](https://web.archive.org/web/20250524233145/https://www.martinfowler.com/eaaCatalog/unitOfWork.html)
+* [Identity Map](https://web.archive.org/web/20250427155949/https://www.martinfowler.com/eaaCatalog/identityMap.html)
+* [Lazy Load](https://web.archive.org/web/20250602065432/https://www.martinfowler.com/eaaCatalog/lazyLoad.html)
 
 Object-Relational Structural Patterns: 
-* Identity Field
-* Association Table Mapping
-* Dependent Mapping
-* Embedded Value
-* Serialized LOB
-* Single Table Inheritance
-* Class Table Inheritance
-* Concrete Table Inheritance
-* Inheritance Mappers
+* [Identity Field](https://web.archive.org/web/20250426164918/https://martinfowler.com/eaaCatalog/identityField.html)
+* [Inheritance Mappers](https://web.archive.org/web/20250426122239/https://www.martinfowler.com/eaaCatalog/inheritanceMappers.html)
+* [Foreign Key Mapping](https://web.archive.org/web/20250219223653/https://martinfowler.com/eaaCatalog/foreignKeyMapping.html)
+* [Association Table Mapping](https://web.archive.org/web/20250502015402/https://martinfowler.com/eaaCatalog/associationTableMapping.html)
+* [Dependent Mapping](https://web.archive.org/web/20250502015402/https://martinfowler.com/eaaCatalog/dependentMapping.html)
+* [Embedded Value](https://web.archive.org/web/20250219183810/https://www.martinfowler.com/eaaCatalog/embeddedValue.html)
+* [Serialized LOB](https://web.archive.org/web/20250426164923/https://martinfowler.com/eaaCatalog/serializedLOB.html)
+* [Single Table Inheritance](https://web.archive.org/web/20241230001549/https://www.martinfowler.com/eaaCatalog/singleTableInheritance.html)
+* [Class Table Inheritance](https://web.archive.org/web/20250426164926/https://martinfowler.com/eaaCatalog/classTableInheritance.html)
+* [Concrete Table Inheritance](https://web.archive.org/web/20241124225353/https://www.martinfowler.com/eaaCatalog/concreteTableInheritance.html)
 
 Object-Relational Metadata Mapping Patterns: 
-* Metadata Mapping
-* Query Object
-* Repository
-
+* [Metadata Mapping](https://web.archive.org/web/20250426164917/https://martinfowler.com/eaaCatalog/metadataMapping.html)
+* [Query Object](https://web.archive.org/web/20250502015402/https://martinfowler.com/eaaCatalog/queryObject.html)
+* [Repository](https://web.archive.org/web/20250529113523/https://www.martinfowler.com/eaaCatalog/repository.html)
+  
 Web Presentation Patterns: 
-* Page Controller
-* Front Controller
-* Transform View
-* Two-Step View
-* Application Controller
+* [Model View Controller](https://web.archive.org/web/20250524003943/https://martinfowler.com/eaaCatalog/modelViewController.html)
+* [Page Controller](https://web.archive.org/web/20250512114121/https://martinfowler.com/eaaCatalog/pageController.html)
+* [Front Controller](https://web.archive.org/web/20250512114120/https://martinfowler.com/eaaCatalog/frontController.html)
+* [Template View](https://web.archive.org/web/20250113123213/https://www.martinfowler.com/eaaCatalog/templateView.html)
+* [Transform View](https://web.archive.org/web/20250522155650/https://martinfowler.com/eaaCatalog/transformView.html)
+* [Two-Step View](https://web.archive.org/web/20250523190832/https://martinfowler.com/eaaCatalog/twoStepView.html)
+* [Application Controller](https://web.archive.org/web/20250522055411/https://martinfowler.com/eaaCatalog/applicationController.html)
+  
+<!--
+MVCs
+* [Model View Controller Wikipedia](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+* [Model View Controller Wikibook](http://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller)
+* [Model–view–viewmodel Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+-->
 
 Distribution Patterns: 
-* Remote Facade
-* Data Transfer Object
+* [Remote Facade](https://web.archive.org/web/20250523085248/https://martinfowler.com/eaaCatalog/remoteFacade.html)
+* [Data Transfer Object](https://web.archive.org/web/20250522204517/https://martinfowler.com/eaaCatalog/dataTransferObject.html)
 
 Offline Concurrency Patterns: 
-* Optimistic Offline Lock
-* Pessimistic Offline Lock
-* Coarse Grained Lock
-* Implicit Lock
+* [Optimistic Offline Lock](https://web.archive.org/web/20250521190739/https://martinfowler.com/eaaCatalog/optimisticOfflineLock.html)
+* [Pessimistic Offline Lock](https://web.archive.org/web/20250522061953/https://martinfowler.com/eaaCatalog/pessimisticOfflineLock.html)
+* [Coarse Grained Lock](https://web.archive.org/web/20250522031447/https://martinfowler.com/eaaCatalog/coarseGrainedLock.html)
+* [Implicit Lock](https://web.archive.org/web/20250323205928/https://martinfowler.com/eaaCatalog/implicitLock.html)
   
 Session State Patterns: 
-* Client Session State
-* Server Session State
-* Database Session State
+* [Client Session State](https://web.archive.org/web/20250522003424/https://martinfowler.com/eaaCatalog/clientSessionState.html)
+* [Server Session State](https://web.archive.org/web/20250523170918/https://martinfowler.com/eaaCatalog/serverSessionState.html)
+* [Database Session State](https://web.archive.org/web/20250522160430/https://martinfowler.com/eaaCatalog/databaseSessionState.html)
+
+<!--
+See O'Reilly Media
+-->
   
 Base Patterns: 
-* Gateway
-* Mapper
-* Layer Supertype
-* Separated Interface
-* Registry
-* Value Object
-* Money
-* Special Case
-* Plugin
-* Service Stub
-* Record Set
-  
+* [Gateway](https://web.archive.org/web/20250523213758/https://martinfowler.com/eaaCatalog/gateway.html)
+* [Service Stub](https://web.archive.org/web/20250522170313/https://martinfowler.com/eaaCatalog/serviceStub.html)
+* [Record Set](https://web.archive.org/web/20250522194533/https://martinfowler.com/eaaCatalog/recordSet.html)
+* [Mapper](https://web.archive.org/web/20250522091752/https://martinfowler.com/eaaCatalog/mapper.html)
+* [Layer Supertype](https://web.archive.org/web/20250522052150/https://martinfowler.com/eaaCatalog/layerSupertype.html)
+* [Separated Interface](https://web.archive.org/web/20250429171221/https://martinfowler.com/eaaCatalog/separatedInterface.html)
+* [Registry](https://web.archive.org/web/20250523163235/https://www.martinfowler.com/eaaCatalog/registry.html)
+* [Value Object](https://web.archive.org/web/20250522103810/https://martinfowler.com/eaaCatalog/valueObject.html)
+* [Money](https://web.archive.org/web/20250603152517/https://martinfowler.com/eaaCatalog/money.html)
+* [Special Case](https://web.archive.org/web/20250414025144/https://martinfowler.com/eaaCatalog/specialCase.html)
+* [Plugin](https://web.archive.org/web/20250523073620/https://www.martinfowler.com/eaaCatalog/plugin.html)
+
+<!--
+See O'Reilly Media for Layer Supertype and maybe others after
+-->
+
 ### Enterprise Integration Patterns
 
 <!--
