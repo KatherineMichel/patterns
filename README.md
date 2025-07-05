@@ -2,16 +2,33 @@
 
 ## Architectures
 
+Clean Inspired
+* [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+* [Hexagonal Architecture (a.k.a. Ports and Adapters) by Alistair Cockburn](https://web.archive.org/web/20060711221010/https://alistair.cockburn.us/index.php/Hexagonal_architecture)
+* [Hexagonal Architecture Wikipedia](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
+* [Onion Architecture by Jeff Palermo](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
+* [Screaming Architecture by Robert Martin](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
+* [Separation of Concerns Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
+* [Dependency Inversion Principle Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+
+<!--
+DCI from James Coplien, and Trygve Reenskaug
+https://en.wikipedia.org/wiki/Data,_context_and_interaction
+https://www.amazon.com/Lean-Architecture-Agile-Software-Development/dp/0470684208/
+
+BCE by Ivar Jacobson from his book Object Oriented Software Engineering: A Use-Case Driven Approach
+https://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350
+
+https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/
+
+https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749
+
+https://herbertograca.com/tag/software-architecture/
+-->
+
 Monolith and Microservice
 * [Monolith Application Wikipedia](https://en.wikipedia.org/wiki/Monolithic_application)
 * [Microservices Wikipedia](https://en.wikipedia.org/wiki/Microservices)
-
-<!--
-https://herbertograca.com/tag/software-architecture/
-
-https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)
-https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749
--->
 
 ## Python Design Patterns
 
