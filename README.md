@@ -8,17 +8,18 @@ Clean Inspired
 * [Hexagonal Architecture Wikipedia](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
 * [Onion Architecture by Jeff Palermo](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
 * [Screaming Architecture by Robert Martin](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
+* [Data, Context, and Integration (DCI) from James Coplien, and Trygve Reenskaug](https://www.amazon.com/Lean-Architecture-Agile-Software-Development/dp/0470684208/)
+* [Data, Context, and Integration (DCI) Wikipedia (complimentary to Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Data,_context_and_interaction)
+* B[oundary-Control-Entity (BCE) from Ivar Jacobson's book Object Oriented Software Engineering: A Use-Case Driven Approach](https://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350)
+* [Boundary-Control-Entity (BCE) Wikipedia](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary)
 * [Separation of Concerns Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
 * [Dependency Inversion Principle Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
 <!--
-DCI from James Coplien, and Trygve Reenskaug
-https://en.wikipedia.org/wiki/Data,_context_and_interaction
-https://www.amazon.com/Lean-Architecture-Agile-Software-Development/dp/0470684208/
+https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/cqrs-pattern.html
 
-BCE by Ivar Jacobson from his book Object Oriented Software Engineering: A Use-Case Driven Approach
-https://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350
-
+https://en.wikipedia.org/wiki/Domain-driven_design
+https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation
 https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/
 
 https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749
