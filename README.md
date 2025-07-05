@@ -72,9 +72,18 @@ Software Principles (SOLID)
 
 GRASP Principles
 * [General Responsibility Assignment Software Patterns (or Principles) (GRASP) Wikipedia](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
+* Controller
+* Creator
+* Indirection
+* Information expert
+* Low coupling
+* High cohesion
+* Polymorphism
+* Protected variations
+* Pure fabrication
 
 <!--
-Controller, creator, indirection, information expert, low coupling, high cohesion, polymorphism, protected variations, and pure fabrication.
+See notes in Wikipedia
 -->
 
 ## Architectural Patterns
@@ -279,7 +288,62 @@ System Management
 * [Test Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html)
 * [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html)
 
+### Enterprise Integration Patterns- Modern Examples
+
+Publish-Subscribe Channel	
+* Google Cloud Pub/sub
+
+Dead Letter Channel	
+* Amazon SQS
+* Kafka Connect
+
+Return Address	
+* GoLang
+
+Message Expiration	
+* Azure Service Bus
+* Amazon EventBridge
+* Google Cloud PubSub
+
+Content-based Router	
+* Apache Camel
+
+Scatter-Gather	
+* Serverless Loan Broker on AWS
+* Mulesoft ESB
+* Azure Durable Functions: Fan out/fan in
+
+Message Filter	
+* RabbitMQ
+
+Aggregator	
+* Serverless Loan Broker on AWS (Lambda, DynamoDB)
+* Serverless Loan Broker on GCP (Cloud Function, Datastore)
+
+Process Manager	
+* Serverless Loan Broker with AWS Step Functions
+* Serverless Loan Broker with GCP Workflows
+
+Content Enricher	
+* Amazon EventBridge Pipes
+
+Transactional Client	
+* Amazon SQS
+
+Event-driven Consumer	
+* RabbitMQ
+
+Competing Consumers	
+* Apache Kafka
+
+Channel Purger	
+* Amazon SQS
+
 <!--
+Modern examples
+https://www.enterpriseintegrationpatterns.com/ramblings/eip1_examples_updated.html
+https://github.com/spac3lord/eip
+
 Simple Messaging Examples	 
 * JMS Request/Reply Example	 
 * .NET Request/Reply Example	 
@@ -298,17 +362,16 @@ Integration Patterns in Practice
 
 Concluding Remarks
 * Emerging Standards and Futures in Enterprise Integration
+https://www.enterpriseintegrationpatterns.com/patterns/messaging/Future.html
 -->
   
 ## Design Patterns
 
 ### Python Design Patterns
 
-Patterns Talks
 * [Christopher Neugebauer "You Don't Need That"](https://www.youtube.com/watch?v=dg-Vm9W3Tlc&list=PL2k6bbM_wgjvY02EFUMhwHRyaSaEokT2B&index=37)
-
-Brandon Rhodes
 * [Brandon Rhodes: Python Patterns Guide](http://python-patterns.guide) and [Brandon Rhodes: Python Patterns Guide GitHub](https://github.com/brandon-rhodes/python-patterns)
+* [The Catalogue of Python Examples](https://refactoring.guru/design-patterns/python)
 
 ### Design Patterns Built Into Python
 
