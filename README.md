@@ -2,7 +2,14 @@
 
 ## Architectures
 
+Monolith and Microservice
+* [Monolith Application Wikipedia](https://en.wikipedia.org/wiki/Monolithic_application)
+* [Microservices Wikipedia](https://en.wikipedia.org/wiki/Microservices)
+
 <!--
+https://herbertograca.com/tag/software-architecture/
+
+https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)
 https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749
 -->
 
