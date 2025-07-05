@@ -6,7 +6,7 @@
 
 * [Kent Beck](https://www.linkedin.com/in/kentbeck/)
 * [Martin Fowler](https://martinfowler.com/)
-* [Robert C. Martin: Clean Coder](http://blog.cleancoder.com)
+* [Robert C. Martin](http://blog.cleancoder.com)
   
 ## Architectural Styles
 
@@ -19,7 +19,7 @@ Clean Inspired
 * [Screaming Architecture by Robert C. Martin](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
 * [Data, Context, and Integration (DCI) from James Coplien, and Trygve Reenskaug](https://www.amazon.com/Lean-Architecture-Agile-Software-Development/dp/0470684208/)
 * [Data, Context, and Integration (DCI) Wikipedia (complimentary to Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Data,_context_and_interaction)
-* B[oundary-Control-Entity (BCE) from Ivar Jacobson's book Object Oriented Software Engineering: A Use-Case Driven Approach](https://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350)
+* [Boundary-Control-Entity (BCE) from Ivar Jacobson's book Object Oriented Software Engineering: A Use-Case Driven Approach](https://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350)
 * [Boundary-Control-Entity (BCE) Wikipedia](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary)
 * [Separation of Concerns Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
 * [Dependency Inversion Principle Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
@@ -68,11 +68,12 @@ Software Principles (SOLID)
 * [Interface Segregation Principle Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 * [Dependency Inversion Principle Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
-<!--
-GRASP
--->
+GRASP Principles
+* [General Responsibility Assignment Software Patterns (or Principles) (GRASP) Wikipedia](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
 
-### Enterprise Integration Styles
+<!--
+Controller, creator, indirection, information expert, low coupling, high cohesion, polymorphism, protected variations, and pure fabrication.
+-->
 
 ## Architectural Patterns
 
@@ -83,6 +84,103 @@ GRASP
 
 <!--
 https://martinfowler.com/articles/enterprisePatterns.html | Enterprise Patterns
+-->
+
+Database
+* Foreign Key Mapping
+* Lazy Load
+
+Web Presentation Patterns: 
+* Model View Controller
+* Template View
+  
+<!--
+MVCs
+* [Model View Controller Wikipedia](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+* [Model View Controller Wikibook](http://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller)
+* [Model–view–viewmodel Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+-->
+
+Domain Logic Patterns: 
+* Transaction Script
+* Domain Model
+* Table Module
+* Service Layer
+
+Data Source Architectural Patterns: 
+* Table Data Gateway
+* Row Data Gateway
+* Active Record
+* Data Mapper 
+
+<!--
+https://martinfowler.com/eaaCatalog/domainModel.html
+https://www.martinfowler.com/eaaCatalog/activeRecord.html 
+
+Django
+https://en.wikipedia.org/wiki/Active_record_pattern | Active record pattern - Wikipedia
+https://martinfowler.com/bliki/AnemicDomainModel.html | AnemicDomainModel
+-->
+
+Object-Relational Behavioral Patterns
+* Unit of Work
+* Identity Map
+
+Object-Relational Structural Patterns: 
+* Identity Field
+* Association Table Mapping
+* Dependent Mapping
+* Embedded Value
+* Serialized LOB
+* Single Table Inheritance
+* Class Table Inheritance
+* Concrete Table Inheritance
+* Inheritance Mappers
+
+Object-Relational Metadata Mapping Patterns: 
+* Metadata Mapping
+* Query Object
+* Repository
+
+Web Presentation Patterns: 
+* Page Controller
+* Front Controller
+* Transform View
+* Two-Step View
+* Application Controller
+
+Distribution Patterns: 
+* Remote Facade
+* Data Transfer Object
+
+Offline Concurrency Patterns: 
+* Optimistic Offline Lock
+* Pessimistic Offline Lock
+* Coarse Grained Lock
+* Implicit Lock
+  
+Session State Patterns: 
+* Client Session State
+* Server Session State
+* Database Session State
+  
+Base Patterns: 
+* Gateway
+* Mapper
+* Layer Supertype
+* Separated Interface
+* Registry
+* Value Object
+* Money
+* Special Case
+* Plugin
+* Service Stub
+* Record Set
+  
+### Enterprise Integration Patterns
+
+<!--
+https://www.amazon.ca/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683
 -->
 
 ## Design Patterns
