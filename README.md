@@ -26,6 +26,7 @@ Clean Inspired
 
 <!--
 https://herbertograca.com/tag/software-architecture/
+https://herbertograca.com/2017/09/14/ports-adapters-architecture/
 
 Robert C. Martin Series
 
@@ -55,6 +56,7 @@ Various
 
 ### Architectural Characteristics and Design Principles
 
+Miscellaneous Characteristics
 * [Separation of Concerns Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
 * [Dependency Inversion Principle Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 * [Loose Coupling Wikipedia](https://en.wikipedia.org/wiki/Loose_coupling)
@@ -76,6 +78,15 @@ Controller, creator, indirection, information expert, low coupling, high cohesio
 -->
 
 ## Architectural Patterns
+
+### Miscellaneous
+
+<!--
+Three-tier
+Microkernel
+Model-View-Controller
+Model-View-ViewModel
+-->
 
 ### Patterns of Enterprise Application Architecture
 
@@ -181,8 +192,109 @@ Base Patterns:
 
 <!--
 https://www.amazon.ca/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683
+https://www.enterpriseintegrationpatterns.com/patterns/messaging/toc.html
 -->
 
+Integration Styles	 
+* File Transfer
+* Shared Database
+* Remote Procedure Invocation
+* Messaging
+
+Messaging Systems
+* Message Channel
+* Message
+* Pipes and Filters
+* Message Router
+* Message Translator
+* Message Endpoint
+
+Messaging Channels
+* Point-to-Point Channel
+* Publish-Subscribe Channel
+* Datatype Channel
+* Invalid Message Channel
+* Dead Letter Channel
+* Guaranteed Delivery
+* Channel Adapter
+* Messaging Bridge
+* Message Bus
+
+Message Construction
+* Command Message
+* Document Message
+* Event Message
+* Request-Reply
+* Return Address
+* Correlation Identifier
+* Message Sequence
+* Message Expiration
+* Format Indicator
+
+Simple Messaging Examples	 
+* JMS Request/Reply Example	 
+* .NET Request/Reply Example	 
+* JMS Publish/Subscribe Example
+
+Message Routing
+* Content-Based Router
+* Message Filter
+* Dynamic Router
+* Recipient List
+* Splitter
+* Aggregator
+* Resequencer
+* Composed Message Processor
+* Scatter-Gather
+* Routing Slip
+* Process Manager
+* Message Broker
+
+Message Transformation
+* Envelope Wrapper
+* Content Enricher
+* Content Filter
+* Claim Check
+* Normalizer
+* Canonical Data Model
+
+Composed Messaging Examples	 
+* Synchronous Implementation using Web Services	 
+* Asynchronous Implementation with MSMQ	 
+* Asynchronous Implementation with TIBCO ActiveEnterprise
+
+Messaging Endpoints
+* Messaging Gateway
+* Messaging Mapper
+* Transactional Client
+* Polling Consumer
+* Event-Driven Consumer
+* Competing Consumers
+* Message Dispatcher
+* Selective Consumer
+* Durable Subscriber
+* Idempotent Receiver
+* Service Activator
+
+System Management
+* Control Bus
+* Detour
+* Wire Tap
+* Message History
+* Message Store	
+* Smart Proxy
+* Test Message
+* Channel Purger
+
+Systems Management Example
+* Loan Broker System Management	 
+
+Integration Patterns in Practice
+* Case Study: Bond Trading System	 
+
+Concluding Remarks
+* Emerging Standards and Futures in Enterprise Integration
+  
 ## Design Patterns
 
 ### Python Design Patterns
