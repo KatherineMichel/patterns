@@ -553,6 +553,8 @@ Martin Fowler, Refactoring, Patterns, ThoughtWorks
 * [Martin Fowler: Refactoring 2nd Edition](https://martinfowler.com/articles/refactoring-2nd-ed.html)
 * [Refactoring Catalog](https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/)
 
+### Refactoring Patterns
+
 <!--
 Tags
 basic
@@ -619,7 +621,11 @@ variables
 * [Slide Statements (a.k.a. Consolidate Duplicate Conditional Fragments)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/slideStatements.html)
 * [Split Loop](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitLoop.html)
 * [Split Phase](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitPhase.html)
+
+Eliminate re-assignment
 * [Split Variable (a.k.a. Remove Assignments to Parameters, Split Temp)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitVariable.html)
+
+Once the method is broken down, introduce a clearer algorithm
 * [Substitute Algorithm](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/substituteAlgorithm.html)
 
 Inverse
