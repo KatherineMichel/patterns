@@ -204,7 +204,6 @@ Miscellaneous Characteristics
 * [Loose Coupling Wikipedia](https://en.wikipedia.org/wiki/Loose_coupling)
 
 <!--
-https://en.wikipedia.org/wiki/Dependency_inversion_principle | Dependency inversion principle - Wikipedia
 https://en.wikipedia.org/wiki/Dependency_injection
 https://en.wikipedia.org/wiki/Inversion_of_control
 https://en.wikipedia.org/wiki/Interface_(computing)
@@ -693,146 +692,139 @@ rename
 split-phase
 variables
 
-Change Function Declaration
-• Add Parameter 
-• Change Signature 
-• Remove Parameter 
-• Rename Function 
-• Rename Method
+[Change Function Declaration](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeFunctionDeclaration.html)
+• Aliases: Add Parameter, Change Signature, Remove Parameter, Rename Function, Rename Method
 
 Inverse
-Change Reference to Value
-Change Value to Reference
+[Change Reference to Value](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeReferenceToValue.html)
+[Change Value to Reference](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeValueToReference.html)
 
-Collapse Hierarchy
-Combine Functions into Class
-Combine Functions into Transform
-Consolidate Conditional Expression
-Decompose Conditional
-Encapsulate Collection
-Encapsulate Record
-• Replace Record with Data Class
+[Collapse Hierarchy](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/collapseHierarchy.html)
+[Combine Functions into Class](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/combineFunctionsIntoClass.html)
+[Combine Functions into Transform](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/combineFunctionsIntoTransform.html)
+[Consolidate Conditional Expression](https://web.archive.org/web/20250624061526/https://www.refactoring.com/catalog/consolidateConditionalExpression.html)
+[Decompose Conditional](https://web.archive.org/web/20250624061526/https://www.refactoring.com/catalog/decomposeConditional.html)
+[Encapsulate Collection](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateCollection.html)
+[Encapsulate Record](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateRecord.html)
+• Alias: Replace Record with Data Class
 
-Encapsulate Variable
-• Encapsulate Field 
-• Self-Encapsulate Field
-
-Inverse
-Extract Class
-Inline Class
+[Encapsulate Variable](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateVariable.html)
+• Aliases: Encapsulate Field, Self-Encapsulate Field
 
 Inverse
-Extract Function
-Inline Function
-• Inline Method
-
-Extract Method
-
-Extract Superclass
+[Extract Class](https://web.archive.org/web/20250526085525/https://refactoring.com/catalog/extractClass.html)
+[Inline Class](https://web.archive.org/web/20250526111544/https://refactoring.com/catalog/inlineClass.html)
 
 Inverse
-Extract Variable
-• Introduce Explaining Variable
-Inline Variable
-• Inline Temp
+[Extract Function](https://web.archive.org/web/20250627052515/https://refactoring.com/catalog/extractFunction.html)
+* Alias: Extract Method
+[Inline Function](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/inlineFunction.html)
+• Alias: Inline Method
+
+[Extract Superclass](https://web.archive.org/web/20250624061522/https://www.refactoring.com/catalog/extractSuperclass.html)
 
 Inverse
-Hide Delegate
-Remove Middle Man
-
-Introduce Assertion
-Introduce Parameter Object
-Introduce Special Case
-• Introduce Null Object
-
-Move Field
-Move Function
-• Move Method
+[Extract Variable](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/extractVariable.html)
+• Alias: Introduce Explaining Variable
+[Inline Variable](https://web.archive.org/web/20250216090838/https://refactoring.com/catalog/inlineVariable.html)
+• Alias: Inline Temp
 
 Inverse
-Move Statements into Function
-Move Statements to Callers
+[Hide Delegate](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/hideDelegate.html)
+[Remove Middle Man](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeMiddleMan.html)
 
-Parameterize Function
-• Parameterize Method
+[Introduce Assertion](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceAssertion.html)
+[Introduce Parameter Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceParameterObject.html)
+[Introduce Special Case](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceSpecialCase.html)
+• Alias: Introduce Null Object
 
-Preserve Whole Object
-Pull Up Constructor Body
-
-Inverse
-Pull Up Field
-Push Down Field
-
-Inverse
-Pull Up Method
-Push Down Method
-
-Remove Dead Code
-Remove Flag Argument
-• Replace Parameter with Explicit Methods
-
-Remove Setting Method
+[Move Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveField.html)
+[Move Function](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveFunction.html)
+• Alias: Move Method
 
 Inverse
-Remove Subclass
-• Replace Subclass with Fields
-Replace Type Code with Subclasses
-• Extract Subclass 
-• Replace Type Code with State/Strategy
+[Move Statements into Function](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveStatementsIntoFunction.html)
+[Move Statements to Callers](https://web.archive.org/web/20250518232743/https://www.refactoring.com/catalog/moveStatementsToCallers.html)
 
-Rename Field
-Rename Variable
+[Parameterize Function](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/parameterizeFunction.html)
+• Alias: Parameterize Method
+
+[Preserve Whole Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/preserveWholeObject.html)
+[Pull Up Constructor Body](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pullUpConstructorBody.html)
 
 Inverse
-Replace Command with Function
-Replace Function with Command
-• Replace Method with Method Object
+[Pull Up Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pullUpField.html)
+[Push Down Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pushDownField.html)
 
-Replace Conditional with Polymorphism
-Replace Constructor with Factory Function
-• Replace Constructor with Factory Method
+Inverse
+[Pull Up Method](https://web.archive.org/web/20250624061522/https://www.refactoring.com/catalog/pullUpMethod.html)
+[Push Down Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pushDownMethod.html)
 
-Replace Control Flag with Break
-• Remove Control Flag
+[Remove Dead Code](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeDeadCode.html)
+[Remove Flag Argument](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeFlagArgument.html)
+• Alias: Replace Parameter with Explicit Methods
 
-Replace Derived Variable with Query
-Replace Error Code with Exception
-Replace Exception with Precheck
-• Replace Exception with Test
+[Remove Setting Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeSettingMethod.html)
+
+Inverse
+[Remove Subclass](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeSubclass.html)
+• Alias: Replace Subclass with Fields
+[Replace Type Code with Subclasses](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceTypeCodeWithSubclasses.html)
+• Alias: Extract Subclass 
+• Alias: Replace Type Code with State/Strategy
+
+[Rename Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/renameField.html)
+[Rename Variable](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/renameVariable.html)
+
+Inverse
+[Replace Command with Function](https://web.archive.org/web/20250618112358/https://refactoring.com/catalog/replaceCommandWithFunction.html)
+[Replace Function with Command](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceFunctionWithCommand.html)
+• Alias: Replace Method with Method Object
+
+[Replace Conditional with Polymorphism](https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/replaceConditionalWithPolymorphism.html)
+[Replace Constructor with Factory Function](https://web.archive.org/web/20250524125205/https://refactoring.com/catalog/replaceConstructorWithFactoryFunction.html)
+• Alias: Replace Constructor with Factory Method
+
+[Replace Control Flag with Break](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceControlFlagWithBreak.html)
+• Alias: Remove Control Flag
+
+[Replace Derived Variable with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceDerivedVariableWithQuery.html)
+[Replace Error Code with Exception](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceErrorCodeWithException.html)
+[Replace Exception with Precheck](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceExceptionWithPrecheck.html)
+• Alias: Replace Exception with Test
 
 Replace Inline Code with Function Call
 Replace Loop with Pipeline
 Replace Magic Literal
-• Replace Magic Number with Symbolic Constant
+• Alias: Replace Magic Number with Symbolic Constant
 
-Replace Nested Conditional with Guard Clauses
+[Replace Nested Conditional with Guard Clauses](https://web.archive.org/web/20250611154543/https://www.refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)
 
 Inverse
-Replace Parameter with Query
-• Replace Parameter with Method
-Replace Query with Parameter
+[Replace Parameter with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceParameterWithQuery.html)
+• Alias: Replace Parameter with Method
+[Replace Query with Parameter](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceQueryWithParameter.html)
 
-Replace Primitive with Object
-• Replace Data Value with Object 
-• Replace Type Code with Class
+[Replace Primitive with Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replacePrimitiveWithObject.html)
+• Alias: Replace Data Value with Object 
+• Alias: Replace Type Code with Class
 
-Replace Subclass with Delegate
-Replace Superclass with Delegate
-• Replace Inheritance with Delegation
+[Replace Subclass with Delegate](https://web.archive.org/web/20250528181851/https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
+[Replace Superclass with Delegate](https://web.archive.org/web/20250528181851/https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
+• Alias: Replace Inheritance with Delegation
 
-Replace Temp with Query
+[Replace Temp with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceTempWithQuery.html)
 
-Return Modified Value
-Separate Query from Modifier
-Slide Statements
-• Consolidate Duplicate Conditional Fragments
+[Return Modified Value](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/returnModifiedValue.html)
+[Separate Query from Modifier](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/separateQueryFromModifier.html)
+[Slide Statements](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/slideStatements.html)
+• Alias: Consolidate Duplicate Conditional Fragments
 
-Split Loop
-Split Phase
-Split Variable
-• Remove Assignments to Parameters 
-• Split Temp
+[Split Loop](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitLoop.html)
+[Split Phase](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitPhase.html)
+[Split Variable](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitVariable.html)
+• Alias: Remove Assignments to Parameters 
+• Alias: Split Temp
 
-Substitute Algorithm
+[Substitute Algorithm](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/substituteAlgorithm.html)
 -->
-
