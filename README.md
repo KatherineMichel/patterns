@@ -329,10 +329,10 @@ Messaging Systems
 
 Messaging Channels
 * [Point-to-Point Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PointToPointChannel.html)
-* [Publish-Subscribe Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PublishSubscribeChannel.html) Modern Version: Google Cloud Pub/sub
+* [Publish-Subscribe Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PublishSubscribeChannel.html) (Modern Version: Google Cloud Pub/sub)
 * [Datatype Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DatatypeChannel.html)
 * [Invalid Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html)
-* [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html) Modern Version: Amazon SQS, Kafka Connect
+* [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html) (Modern Version: Amazon SQS, Kafka Connect)
 * [Guaranteed Delivery](https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html)
 * [Channel Adapter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html)
 * [Messaging Bridge](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingBridge.html)
@@ -343,29 +343,29 @@ Message Construction
 * [Document Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html)
 * [Event Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html)
 * [Request-Reply](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RequestReply.html)
-* [Return Address](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html) Modern Version: GoLang
+* [Return Address](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html) (Modern Version: GoLang)
 * [Correlation Identifier](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CorrelationIdentifier.html)
 * [Message Sequence](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSequence.html)
-* [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) Modern Version: Azure Service Bus, Amazon EventBridge, Google Cloud PubSub
+* [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) (Modern Version: Azure Service Bus, Amazon EventBridge, Google Cloud PubSub)
 * [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html)
  
 Message Routing
-* [Content-Based Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html) Modern Version: Apache Camel
-* [Message Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html) Modern Version: RabbitMQ
+* [Content-Based Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html) (Modern Version: Apache Camel)
+* [Message Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html) (Modern Version: RabbitMQ)
 * [Dynamic Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html)
 * [Recipient List](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RecipientList.html)
 * [Splitter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Sequencer.html)
-* [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) Modern Version: Serverless Loan Broker on AWS (Lambda, DynamoDB), Serverless Loan Broker on GCP (Cloud Function, Datastore)
+* [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) (Modern Version: Serverless Loan Broker on AWS (Lambda, DynamoDB), Serverless Loan Broker on GCP (Cloud Function, Datastore))
 * [Resequencer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html)
 * [Composed Message Processor](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DistributionAggregate.html)
-* [Scatter-Gather](https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html) Modern Version: Serverless Loan Broker on AWS, Mulesoft ESB, Azure Durable Functions: Fan out/fan in
+* [Scatter-Gather](https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html) (Modern Version: Serverless Loan Broker on AWS, Mulesoft ESB, Azure Durable Functions: Fan out/fan in)
 * [Routing Slip](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RoutingTable.html)
-* [Process Manager](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html) Modern Version: Serverless Loan Broker with AWS Step Functions, Serverless Loan Broker with GCP Workflows
+* [Process Manager](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html) (Modern Version: Serverless Loan Broker with AWS Step Functions, Serverless Loan Broker with GCP Workflows)
 * [Message Broker](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html)
  
 Message Transformation
 * [Envelope Wrapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html)
-* [Content Enricher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html) Modern Version: Amazon EventBridge Pipes
+* [Content Enricher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html) (Modern Version: Amazon EventBridge Pipes)
 * [Content Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentFilter.html)
 * [Claim Check](https://www.enterpriseintegrationpatterns.com/patterns/messaging/StoreInLibrary.html)
 * [Normalizer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Normalizer.html)
@@ -374,10 +374,10 @@ Message Transformation
 Messaging Endpoints
 * [Messaging Gateway](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html)
 * [Messaging Mapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html)
-* [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html) Modern Version: Amazon SQS
+* [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html) (Modern Version: Amazon SQS)
 * [Polling Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PollingConsumer.html)
-* [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html) Modern Version: RabbitMQ
-* [Competing Consumers](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CompetingConsumers.html) Modern Version: Apache Kafka
+* [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html) (Modern Version: RabbitMQ)
+* [Competing Consumers](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CompetingConsumers.html) (Modern Version: Apache Kafka)
 * [Message Dispatcher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageDispatcher.html)
 * [Selective Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSelector.html)
 * [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html)
@@ -577,12 +577,7 @@ split-phase
 variables
 -->
 
-[Change Function Declaration (a.k.a. Add Parameter, Change Signature, Remove Parameter, Rename Function, Rename Method)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeFunctionDeclaration.html)
-
-Inverse
-* [Change Reference to Value](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeReferenceToValue.html)
-* [Change Value to Reference](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeValueToReference.html)
-
+* [Change Function Declaration (a.k.a. Add Parameter, Change Signature, Remove Parameter, Rename Function, Rename Method)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeFunctionDeclaration.html)
 * [Collapse Hierarchy](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/collapseHierarchy.html)
 * [Combine Functions into Class](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/combineFunctionsIntoClass.html)
 * [Combine Functions into Transform](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/combineFunctionsIntoTransform.html)
@@ -591,6 +586,45 @@ Inverse
 * [Encapsulate Collection](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateCollection.html)
 * [Encapsulate Record (a.k.a. Replace Record with Data Class)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateRecord.html)
 * [Encapsulate Variable (a.k.a. Encapsulate Field, Self-Encapsulate Field)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateVariable.html)
+* [Extract Superclass](https://web.archive.org/web/20250624061522/https://www.refactoring.com/catalog/extractSuperclass.html)
+* [Introduce Assertion](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceAssertion.html)
+* [Introduce Parameter Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceParameterObject.html)
+* [Introduce Special Case (a.k.a Introduce Null Object)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceSpecialCase.html)
+* [Move Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveField.html)
+* [Move Function/Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveFunction.html)
+* [Parameterize Function/Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/parameterizeFunction.html)
+* [Preserve Whole Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/preserveWholeObject.html)
+* [Pull Up Constructor Body](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pullUpConstructorBody.html)
+* [Remove Dead Code](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeDeadCode.html)
+* [Remove Flag Argument (a.k.a. Replace Parameter with Explicit Methods)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeFlagArgument.html)
+* [Remove Setting Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeSettingMethod.html)
+* [Rename Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/renameField.html)
+* [Rename Variable](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/renameVariable.html)
+* [Replace Conditional with Polymorphism](https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/replaceConditionalWithPolymorphism.html)
+* [Replace Constructor with Factory Function (a.k.a. Replace Constructor with Factory Method)](https://web.archive.org/web/20250524125205/https://refactoring.com/catalog/replaceConstructorWithFactoryFunction.html)
+* [Replace Control Flag with Break (a.k.a. Remove Control Flag)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceControlFlagWithBreak.html)
+* [Replace Derived Variable with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceDerivedVariableWithQuery.html)
+* [Replace Error Code with Exception](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceErrorCodeWithException.html)
+* [Replace Exception with Precheck (a.k.a. Replace Exception with Test)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceExceptionWithPrecheck.html)
+* [Replace Inline Code with Function Call](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceInlineCodeWithFunctionCall.html)
+* [Replace Loop with Pipeline](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceLoopWithPipeline.html)
+* [Replace Magic Literal (a.k.a. Replace Magic Number with Symbolic Constant)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceMagicLiteral.html)
+* [Replace Nested Conditional with Guard Clauses](https://web.archive.org/web/20250611154543/https://www.refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)
+* [Replace Primitive with Object (a.k.a. Replace Data Value with Object, Replace Type Code with Class)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replacePrimitiveWithObject.html)
+* [Replace Subclass with Delegate](https://web.archive.org/web/20250528181851/https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
+* [Replace Superclass with Delegate (a.k.a. Replace Inheritance with Delegation)](https://web.archive.org/web/20250528181851/https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
+* [Replace Temp with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceTempWithQuery.html)
+* [Return Modified Value](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/returnModifiedValue.html)
+* [Separate Query from Modifier](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/separateQueryFromModifier.html)
+* [Slide Statements (a.k.a. Consolidate Duplicate Conditional Fragments)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/slideStatements.html)
+* [Split Loop](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitLoop.html)
+* [Split Phase](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitPhase.html)
+* [Split Variable (a.k.a. Remove Assignments to Parameters, Split Temp)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitVariable.html)
+* [Substitute Algorithm](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/substituteAlgorithm.html)
+
+Inverse
+* [Change Reference to Value](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeReferenceToValue.html)
+* [Change Value to Reference](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeValueToReference.html)
 
 Inverse
 * [Extract Class](https://web.archive.org/web/20250526085525/https://refactoring.com/catalog/extractClass.html)
@@ -600,8 +634,6 @@ Inverse
 * [Extract Function/Method](https://web.archive.org/web/20250627052515/https://refactoring.com/catalog/extractFunction.html)
 * [Inline Function/Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/inlineFunction.html)
 
-* [Extract Superclass](https://web.archive.org/web/20250624061522/https://www.refactoring.com/catalog/extractSuperclass.html)
-
 Inverse
 * [Extract Variable (a.k.a. Introduce Explaining Variable)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/extractVariable.html)
 * [Inline Variable (a.k.a. Inline Temp)](https://web.archive.org/web/20250216090838/https://refactoring.com/catalog/inlineVariable.html)
@@ -610,21 +642,9 @@ Inverse
 * [Hide Delegate](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/hideDelegate.html)
 * [Remove Middle Man](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeMiddleMan.html)
 
-* [Introduce Assertion](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceAssertion.html)
-* [Introduce Parameter Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceParameterObject.html)
-* [Introduce Special Case (a.k.a Introduce Null Object)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceSpecialCase.html)
-
-* [Move Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveField.html)
-* [Move Function/Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveFunction.html)
-
 Inverse
 * [Move Statements into Function](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveStatementsIntoFunction.html)
 * [Move Statements to Callers](https://web.archive.org/web/20250518232743/https://www.refactoring.com/catalog/moveStatementsToCallers.html)
-
-* [Parameterize Function/Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/parameterizeFunction.html)
-
-* [Preserve Whole Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/preserveWholeObject.html)
-* [Pull Up Constructor Body](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pullUpConstructorBody.html)
 
 Inverse
 * [Pull Up Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pullUpField.html)
@@ -634,54 +654,14 @@ Inverse
 * [Pull Up Method](https://web.archive.org/web/20250624061522/https://www.refactoring.com/catalog/pullUpMethod.html)
 * [Push Down Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pushDownMethod.html)
 
-* [Remove Dead Code](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeDeadCode.html)
-* [Remove Flag Argument (a.k.a. Replace Parameter with Explicit Methods)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeFlagArgument.html)
-
-* [Remove Setting Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeSettingMethod.html)
-
 Inverse
 * [Remove Subclass (a.k.a. Replace Subclass with Fields)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeSubclass.html)
 * [Replace Type Code with Subclasses (a.k.a. Replace Type Code with State/Strategy, Extract Subclass)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceTypeCodeWithSubclasses.html)
-
-* [Rename Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/renameField.html)
-* [Rename Variable](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/renameVariable.html)
 
 Inverse
 * [Replace Command with Function](https://web.archive.org/web/20250618112358/https://refactoring.com/catalog/replaceCommandWithFunction.html)
 * [Replace Function with Command (a.k.a. replace Method with Method Object)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceFunctionWithCommand.html)
 
-* [Replace Conditional with Polymorphism](https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/replaceConditionalWithPolymorphism.html)
-* [Replace Constructor with Factory Function (a.k.a. Replace Constructor with Factory Method)](https://web.archive.org/web/20250524125205/https://refactoring.com/catalog/replaceConstructorWithFactoryFunction.html)
-
-* [Replace Control Flag with Break (a.k.a. Remove Control Flag)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceControlFlagWithBreak.html)
-
-* [Replace Derived Variable with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceDerivedVariableWithQuery.html)
-* [Replace Error Code with Exception](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceErrorCodeWithException.html)
-* [Replace Exception with Precheck (a.k.a. Replace Exception with Test)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceExceptionWithPrecheck.html)
-
-* [Replace Inline Code with Function Call](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceInlineCodeWithFunctionCall.html)
-* [Replace Loop with Pipeline](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceLoopWithPipeline.html)
-* [Replace Magic Literal (a.k.a. Replace Magic Number with Symbolic Constant)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceMagicLiteral.html)
-
-* [Replace Nested Conditional with Guard Clauses](https://web.archive.org/web/20250611154543/https://www.refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)
-
 Inverse
 * [Replace Parameter with Query (a.k.a. Replace Parameter with Method)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceParameterWithQuery.html)
 * [Replace Query with Parameter](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceQueryWithParameter.html)
-
-* [Replace Primitive with Object (a.k.a. Replace Data Value with Object, Replace Type Code with Class)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replacePrimitiveWithObject.html)
-
-* [Replace Subclass with Delegate](https://web.archive.org/web/20250528181851/https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
-* [Replace Superclass with Delegate (a.k.a. Replace Inheritance with Delegation)](https://web.archive.org/web/20250528181851/https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
-
-* [Replace Temp with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceTempWithQuery.html)
-
-* [Return Modified Value](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/returnModifiedValue.html)
-* [Separate Query from Modifier](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/separateQueryFromModifier.html)
-* [Slide Statements (a.k.a. Consolidate Duplicate Conditional Fragments)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/slideStatements.html)
-
-* [Split Loop](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitLoop.html)
-* [Split Phase](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitPhase.html)
-* [Split Variable (a.k.a. Remove Assignments to Parameters, Split Temp)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitVariable.html)
-
-* [Substitute Algorithm](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/substituteAlgorithm.html)
