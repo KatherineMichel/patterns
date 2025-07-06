@@ -329,83 +329,60 @@ Messaging Systems
 
 Messaging Channels
 * [Point-to-Point Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PointToPointChannel.html)
-* [Publish-Subscribe Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PublishSubscribeChannel.html)
+* [Publish-Subscribe Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PublishSubscribeChannel.html) Modern Version: Google Cloud Pub/sub
 * [Datatype Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DatatypeChannel.html)
 * [Invalid Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html)
-* [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html)
+* [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html) Modern Version: Amazon SQS, Kafka Connect
 * [Guaranteed Delivery](https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html)
 * [Channel Adapter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html)
 * [Messaging Bridge](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingBridge.html)
 * [Message Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html)
-
-Modern Version
-* Publish-Subscribe Channel: Google Cloud Pub/sub
-* Dead Letter Channel: Amazon SQS, Kafka Connect
 
 Message Construction
 * [Command Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html)
 * [Document Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html)
 * [Event Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html)
 * [Request-Reply](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RequestReply.html)
-* [Return Address](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html)
+* [Return Address](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html) Modern Version: GoLang
 * [Correlation Identifier](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CorrelationIdentifier.html)
 * [Message Sequence](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSequence.html)
-* [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html)
+* [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) Modern Version: Azure Service Bus, Amazon EventBridge, Google Cloud PubSub
 * [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html)
-
-Modern Version
-* Return Address: GoLang
-* Message Expiration: Azure Service Bus, Amazon EventBridge, Google Cloud PubSub
-  
+ 
 Message Routing
-* [Content-Based Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html)
-* [Message Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html)
+* [Content-Based Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html) Modern Version: Apache Camel
+* [Message Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html) Modern Version: RabbitMQ
 * [Dynamic Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html)
 * [Recipient List](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RecipientList.html)
 * [Splitter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Sequencer.html)
-* [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html)
+* [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) Modern Version: Serverless Loan Broker on AWS (Lambda, DynamoDB), Serverless Loan Broker on GCP (Cloud Function, Datastore)
 * [Resequencer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html)
 * [Composed Message Processor](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DistributionAggregate.html)
-* [Scatter-Gather](https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html)
+* [Scatter-Gather](https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html) Modern Version: Serverless Loan Broker on AWS, Mulesoft ESB, Azure Durable Functions: Fan out/fan in
 * [Routing Slip](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RoutingTable.html)
-* [Process Manager](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html)
+* [Process Manager](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html) Modern Version: Serverless Loan Broker with AWS Step Functions, Serverless Loan Broker with GCP Workflows
 * [Message Broker](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html)
-
-Modern Version
-* Content-based Router: Apache Camel
-* Scatter-Gather: Serverless Loan Broker on AWS, Mulesoft ESB, Azure Durable Functions: Fan out/fan in
-* Message Filter: RabbitMQ
-* Aggregator: Serverless Loan Broker on AWS (Lambda, DynamoDB), Serverless Loan Broker on GCP (Cloud Function, Datastore)
-* Process Manager: Serverless Loan Broker with AWS Step Functions, Serverless Loan Broker with GCP Workflows
-  
+ 
 Message Transformation
 * [Envelope Wrapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html)
-* [Content Enricher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html)
+* [Content Enricher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html) Modern Version: Amazon EventBridge Pipes
 * [Content Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentFilter.html)
 * [Claim Check](https://www.enterpriseintegrationpatterns.com/patterns/messaging/StoreInLibrary.html)
 * [Normalizer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Normalizer.html)
 * [Canonical Data Model](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html)
-
-Modern Version
-* Content Enricher: Amazon EventBridge Pipes
   
 Messaging Endpoints
 * [Messaging Gateway](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html)
 * [Messaging Mapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html)
-* [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html)
+* [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html) Modern Version: Amazon SQS
 * [Polling Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PollingConsumer.html)
-* [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html)
-* [Competing Consumers](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CompetingConsumers.html)
+* [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html) Modern Version: RabbitMQ
+* [Competing Consumers](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CompetingConsumers.html) Modern Version: Apache Kafka
 * [Message Dispatcher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageDispatcher.html)
 * [Selective Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSelector.html)
 * [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html)
 * [Idempotent Receiver](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html)
 * [Service Activator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingAdapter.html)
-
-Modern Version
-* Transactional Client: Amazon SQS
-* Event-driven Consumer: RabbitMQ
-* Competing Consumers: Apache Kafka
   
 System Management
 * [Control Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html)
@@ -415,10 +392,7 @@ System Management
 * [Message Store	](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageStore.html)
 * [Smart Proxy](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SmartProxy.html)
 * [Test Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html)
-* [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html)
-
-Modern Version 
-* Channel Purger: Amazon SQS
+* [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html) Modern Version: Amazon SQS
   
 <!--
 Simple Messaging Examples	 
