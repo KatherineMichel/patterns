@@ -1,4 +1,4 @@
-# Patterns
+# Software Architecture and Design Patterns
 
 * [Architectural Styles vs. Architectural Patterns vs. Design Patterns by Herberto Graca](https://herbertograca.com/2017/07/28/architectural-styles-vs-architectural-patterns-vs-design-patterns/)
 
@@ -9,6 +9,8 @@
 * [Robert C. Martin](http://blog.cleancoder.com)
 
 <!--
+https://tidyfirst.substack.com/ | Software Design: Tidy First? | Kent Beck | Substack
+
 ## Gregor Hohpe
 
 https://architectelevator.com/blog/ | Architect Elevator Blog - The Architect Elevator
@@ -606,6 +608,9 @@ Behavioral Patterns
 ### Tidy First
 
 <!--
+https://www.amazon.com/Tidy-First-Personal-Exercise-Empirical/dp/1098151240/ref=zg_bs_g_132555011_d_sccl_1/140-3492681-6208117?psc=1 | Tidy First?: A Personal Exercise in Empirical Software Design: Beck, Kent, Constantine, Larry: 9781098151249: Amazon.com: Books
+https://www.oreilly.com/library/view/tidy-first/9781098151232/ | Tidy First? [Book]
+
 ## Tidy First?
 
 I. Tidyings
@@ -830,3 +835,4 @@ Split Variable
 
 Substitute Algorithm
 -->
+
