@@ -88,7 +88,6 @@ https://www.compileralchemy.com/blog/praise-for-patterns-of-distributed-computin
 https://www.amazon.com/Patterns-Distributed-Systems-Addison-Wesley-Signature/dp/0138221987/ref=asc_df_0138221987/?tag=hyprod-20&linkCode=df0&hvadid=693617400601&hvpos=&hvnetw=g&hvrand=1540816189329461302&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9024386&hvtargid=pla-2087849617622&psc=1&mcid=070f6a23df7b35429086d7aacabf3e13&gad_source=1 | Patterns of Distributed Systems (Addison-Wesley Signature Series (Fowler)): Joshi, Unmesh: 9780138221980: Amazon.com: Books
 -->
 
-<!--
 https://web.archive.org/web/20250629064930/https://martinfowler.com/articles/patterns-of-distributed-systems/
 
 [Gossip Dissemination](https://martinfowler.com/articles/patterns-of-distributed-systems/gossip-dissemination.html)
@@ -194,7 +193,6 @@ An index in the write-ahead log showing the last successful replication.
 
 [Low-Water Mark](https://martinfowler.com/articles/patterns-of-distributed-systems/low-watermark.html)
 An index in the write-ahead log showing which portion of the log can be discarded.
--->
 
 ### General Architectural Characteristics
 
@@ -366,6 +364,10 @@ See O'Reilly Media for Layer Supertype and maybe others after
 
 <!--
 https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+
+Modern examples
+https://www.enterpriseintegrationpatterns.com/ramblings/eip1_examples_updated.html
+https://github.com/spac3lord/eip
 -->
 
 Integration Styles	 
@@ -393,6 +395,10 @@ Messaging Channels
 * [Messaging Bridge](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingBridge.html)
 * [Message Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html)
 
+Modern Version
+* Publish-Subscribe Channel: Google Cloud Pub/sub
+* Dead Letter Channel: Amazon SQS, Kafka Connect
+
 Message Construction
 * [Command Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html)
 * [Document Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html)
@@ -404,6 +410,10 @@ Message Construction
 * [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html)
 * [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html)
 
+Modern Version
+* Return Address: GoLang
+* Message Expiration: Azure Service Bus, Amazon EventBridge, Google Cloud PubSub
+  
 Message Routing
 * [Content-Based Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html)
 * [Message Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html)
@@ -418,6 +428,13 @@ Message Routing
 * [Process Manager](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html)
 * [Message Broker](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html)
 
+Modern Version
+* Content-based Router: Apache Camel
+* Scatter-Gather: Serverless Loan Broker on AWS, Mulesoft ESB, Azure Durable Functions: Fan out/fan in
+* Message Filter: RabbitMQ
+* Aggregator: Serverless Loan Broker on AWS (Lambda, DynamoDB), Serverless Loan Broker on GCP (Cloud Function, Datastore)
+* Process Manager: Serverless Loan Broker with AWS Step Functions, Serverless Loan Broker with GCP Workflows
+  
 Message Transformation
 * [Envelope Wrapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html)
 * [Content Enricher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html)
@@ -426,6 +443,9 @@ Message Transformation
 * [Normalizer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Normalizer.html)
 * [Canonical Data Model](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html)
 
+Modern Version
+* Content Enricher: Amazon EventBridge Pipes
+  
 Messaging Endpoints
 * [Messaging Gateway](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html)
 * [Messaging Mapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html)
@@ -439,6 +459,11 @@ Messaging Endpoints
 * [Idempotent Receiver](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html)
 * [Service Activator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingAdapter.html)
 
+Modern Version
+* Transactional Client: Amazon SQS
+* Event-driven Consumer: RabbitMQ
+* Competing Consumers: Apache Kafka
+  
 System Management
 * [Control Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html)
 * [Detour](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html)
@@ -449,62 +474,10 @@ System Management
 * [Test Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html)
 * [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html)
 
-### Enterprise Integration Patterns- Modern Examples
-
-Publish-Subscribe Channel	
-* Google Cloud Pub/sub
-
-Dead Letter Channel	
-* Amazon SQS
-* Kafka Connect
-
-Return Address	
-* GoLang
-
-Message Expiration	
-* Azure Service Bus
-* Amazon EventBridge
-* Google Cloud PubSub
-
-Content-based Router	
-* Apache Camel
-
-Scatter-Gather	
-* Serverless Loan Broker on AWS
-* Mulesoft ESB
-* Azure Durable Functions: Fan out/fan in
-
-Message Filter	
-* RabbitMQ
-
-Aggregator	
-* Serverless Loan Broker on AWS (Lambda, DynamoDB)
-* Serverless Loan Broker on GCP (Cloud Function, Datastore)
-
-Process Manager	
-* Serverless Loan Broker with AWS Step Functions
-* Serverless Loan Broker with GCP Workflows
-
-Content Enricher	
-* Amazon EventBridge Pipes
-
-Transactional Client	
-* Amazon SQS
-
-Event-driven Consumer	
-* RabbitMQ
-
-Competing Consumers	
-* Apache Kafka
-
-Channel Purger	
-* Amazon SQS
-
+Modern Version 
+* Channel Purger: Amazon SQS
+  
 <!--
-Modern examples
-https://www.enterpriseintegrationpatterns.com/ramblings/eip1_examples_updated.html
-https://github.com/spac3lord/eip
-
 Simple Messaging Examples	 
 * JMS Request/Reply Example	 
 * .NET Request/Reply Example	 
