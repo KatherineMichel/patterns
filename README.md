@@ -83,12 +83,14 @@ Various
 * [Distributed Computing Wikipedia](https://en.wikipedia.org/wiki/Distributed_computing)
 
 <!--
+https://web.archive.org/web/20250629064930/https://martinfowler.com/articles/patterns-of-distributed-systems/
+
 https://martinfowler.com/articles/patterns-of-distributed-systems/ | Patterns of Distributed Systems
 https://www.compileralchemy.com/blog/praise-for-patterns-of-distributed-computing/ | Praise for Patterns of Distributed Computing
 https://www.amazon.com/Patterns-Distributed-Systems-Addison-Wesley-Signature/dp/0138221987/ref=asc_df_0138221987/?tag=hyprod-20&linkCode=df0&hvadid=693617400601&hvpos=&hvnetw=g&hvrand=1540816189329461302&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9024386&hvtargid=pla-2087849617622&psc=1&mcid=070f6a23df7b35429086d7aacabf3e13&gad_source=1 | Patterns of Distributed Systems (Addison-Wesley Signature Series (Fowler)): Joshi, Unmesh: 9780138221980: Amazon.com: Books
 -->
 
-https://web.archive.org/web/20250629064930/https://martinfowler.com/articles/patterns-of-distributed-systems/
+#### Terminology
 
 [Gossip Dissemination](https://martinfowler.com/articles/patterns-of-distributed-systems/gossip-dissemination.html)
 Use a random selection of nodes to pass on information to ensure it reaches all the nodes in the cluster without flooding the network
@@ -99,7 +101,7 @@ Show a server is available by periodically sending a message to all the other se
 [Lease](https://martinfowler.com/articles/patterns-of-distributed-systems/lease.html)
 Use time-bound leases for cluster nodes to coordinate their activities.
 
-## Clock
+##### Clock
 
 [Clock-Bound Wait](https://martinfowler.com/articles/patterns-of-distributed-systems/clock-bound-wait.html)
 Wait to cover the uncertainty in time across cluster nodes before reading and writing values so that values can be correctly ordered across cluster nodes.
@@ -113,7 +115,7 @@ Use a combination of system timestamp and logical timestamp to have versions as 
 [Lamport Clock](https://martinfowler.com/articles/patterns-of-distributed-systems/lamport-clock.html)
 Use logical timestamps as a version for a value to allow ordering of values across servers
 
-## Consistency, Election, Quorum, Consensus Algorithm
+##### Consistency, Election, Quorum, Consensus Algorithm
 
 [Consistent Core](https://martinfowler.com/articles/patterns-of-distributed-systems/consistent-core.html)
 Maintain a smaller cluster providing stronger consistency to allow the large data cluster to coordinate server activities without implementing quorum-based algorithms.
@@ -130,12 +132,12 @@ Avoid two groups of servers making independent decisions by requiring majority f
 [Paxos](https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html)
 Use two consensus building phases to reach safe consensus even when nodes disconnect
 
-## Read Requests
+##### Read Requests
 
 [Follower Reads](https://martinfowler.com/articles/patterns-of-distributed-systems/follower-reads.html)
 Serve read requests from followers to achieve better throughput and lower latency
 
-## Requests
+##### Requests
 
 [Idempotent Receiver](https://martinfowler.com/articles/patterns-of-distributed-systems/idempotent-receiver.html)
 Identify requests from clients uniquely so you can ignore duplicate requests when client retries
@@ -155,7 +157,7 @@ Maintain the order of the requests sent to a server by using a single TCP connec
 [Singular Update Queue](https://martinfowler.com/articles/patterns-of-distributed-systems/singular-update-queue.html)
 Use a single thread to process requests asynchronously to maintain order without blocking the caller.
 
-## Updates
+##### Updates
 
 [State Watch ](https://martinfowler.com/articles/patterns-of-distributed-systems/state-watch.html)
 Notify clients when specific values change on the server
@@ -169,7 +171,7 @@ Maintain a list of counters, one per cluster node, to detect concurrent updates
 [Versioned Value](https://martinfowler.com/articles/patterns-of-distributed-systems/versioned-value.html)
 Store every update to a value with a new version, to allow reading historical values.
 
-## Partitions
+##### Partitions
 
 [Fixed Partitions](https://martinfowler.com/articles/patterns-of-distributed-systems/fixed-partitions.html)
 Keep the number of partitions fixed to keep the mapping of data to partition unchanged when the size of a cluster changes.
@@ -177,7 +179,7 @@ Keep the number of partitions fixed to keep the mapping of data to partition unc
 [Key-Range Partitions](https://martinfowler.com/articles/patterns-of-distributed-systems/key-range-partitions.html)
 Partition data in sorted key ranges to efficiently handle range queries.
 
-## Logs
+##### Logs
 
 [Segmented Log](https://martinfowler.com/articles/patterns-of-distributed-systems/segmented-log.html)
 Split log into multiple smaller files instead of a single large file for easier operations.
