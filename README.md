@@ -392,7 +392,7 @@ System Management
 * [Message Store	](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageStore.html)
 * [Smart Proxy](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SmartProxy.html)
 * [Test Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html)
-* [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html) Modern Version: Amazon SQS
+* [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html) (Modern Version: Amazon SQS)
   
 <!--
 Simple Messaging Examples	 
