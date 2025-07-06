@@ -133,7 +133,7 @@ See notes in Wikipedia
 ### Distributed Computing
 
 * [Patterns of Distributed Systems by Unmesh Joshi](https://www.amazon.com/Patterns-Distributed-Systems-Addison-Wesley-Signature/dp/0138221987)
-* [Catalog of Patterns of Distributed Systems by Unmesh Joshi](https://web.archive.org/web/20250629064930/https://martinfowler.com/articles/patterns-of-distributed-systems/)
+* [Catalog of Patterns of Distributed Systems by Unmesh Joshi](https://martinfowler.com/articles/patterns-of-distributed-systems/)
 
 <!--
 https://www.compileralchemy.com/blog/praise-for-patterns-of-distributed-computing/ | Praise for Patterns of Distributed Computing
@@ -201,24 +201,24 @@ Model-View-ViewModel
 ### Patterns of Enterprise Application Architecture
 
 * [Patterns of Enterprise Application Architecture by Martin Fowler](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
-* [Catalog of Patterns of Enterprise Application Architecture](https://web.archive.org/web/20250521090928/https://martinfowler.com/eaaCatalog/)
+* [Catalog of Patterns of Enterprise Application Architecture](https://martinfowler.com/eaaCatalog/)
 
 <!--
 List of other catalogues
-https://web.archive.org/web/20250514091941/https://martinfowler.com/articles/enterprisePatterns.html
+https://martinfowler.com/articles/enterprisePatterns.html
 -->
 
 Domain Logic Patterns: 
-* [Transaction Script](https://web.archive.org/web/20250527074104/https://martinfowler.com/eaaCatalog/transactionScript.html)
-* [Domain Model](https://web.archive.org/web/20250522234653/https://martinfowler.com/eaaCatalog/domainModel.html)
-* [Table Module](https://web.archive.org/web/20250523131411/https://martinfowler.com/eaaCatalog/tableModule.html)
-* [Service Layer](https://web.archive.org/web/20250429072921/https://martinfowler.com/eaaCatalog/serviceLayer.html)
+* [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html)
+* [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html)
+* [Table Module](https://martinfowler.com/eaaCatalog/tableModule.html)
+* [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html)
 
 Data Source Architectural Patterns: 
-* [Table Data Gateway](https://web.archive.org/web/20250522020359/https://martinfowler.com/eaaCatalog/tableDataGateway.html)
-* [Row Data Gateway](https://web.archive.org/web/20240721061456/https://martinfowler.com/eaaCatalog/rowDataGateway.html)
-* [Active Record](https://web.archive.org/web/20250428214929/https://www.martinfowler.com/eaaCatalog/activeRecord.html)
-* [Data Mapper](https://web.archive.org/web/20250608154613/https://martinfowler.com/eaaCatalog/dataMapper.html)
+* [Table Data Gateway](https://martinfowler.com/eaaCatalog/tableDataGateway.html)
+* [Row Data Gateway](https://martinfowler.com/eaaCatalog/rowDataGateway.html)
+* [Active Record](https://www.martinfowler.com/eaaCatalog/activeRecord.html)
+* [Data Mapper](https://martinfowler.com/eaaCatalog/dataMapper.html)
 
 <!--
 Django
@@ -227,35 +227,35 @@ https://martinfowler.com/bliki/AnemicDomainModel.html | AnemicDomainModel
 -->
 
 Object-Relational Behavioral Patterns
-* [Unit of Work](https://web.archive.org/web/20250524233145/https://www.martinfowler.com/eaaCatalog/unitOfWork.html)
-* [Identity Map](https://web.archive.org/web/20250427155949/https://www.martinfowler.com/eaaCatalog/identityMap.html)
-* [Lazy Load](https://web.archive.org/web/20250602065432/https://www.martinfowler.com/eaaCatalog/lazyLoad.html)
+* [Unit of Work](https://www.martinfowler.com/eaaCatalog/unitOfWork.html)
+* [Identity Map](https://www.martinfowler.com/eaaCatalog/identityMap.html)
+* [Lazy Load](https://www.martinfowler.com/eaaCatalog/lazyLoad.html)
 
 Object-Relational Structural Patterns: 
-* [Identity Field](https://web.archive.org/web/20250426164918/https://martinfowler.com/eaaCatalog/identityField.html)
-* [Inheritance Mappers](https://web.archive.org/web/20250426122239/https://www.martinfowler.com/eaaCatalog/inheritanceMappers.html)
-* [Foreign Key Mapping](https://web.archive.org/web/20250219223653/https://martinfowler.com/eaaCatalog/foreignKeyMapping.html)
-* [Association Table Mapping](https://web.archive.org/web/20250502015402/https://martinfowler.com/eaaCatalog/associationTableMapping.html)
-* [Dependent Mapping](https://web.archive.org/web/20250502015402/https://martinfowler.com/eaaCatalog/dependentMapping.html)
-* [Embedded Value](https://web.archive.org/web/20250219183810/https://www.martinfowler.com/eaaCatalog/embeddedValue.html)
-* [Serialized LOB](https://web.archive.org/web/20250426164923/https://martinfowler.com/eaaCatalog/serializedLOB.html)
-* [Single Table Inheritance](https://web.archive.org/web/20241230001549/https://www.martinfowler.com/eaaCatalog/singleTableInheritance.html)
-* [Class Table Inheritance](https://web.archive.org/web/20250426164926/https://martinfowler.com/eaaCatalog/classTableInheritance.html)
-* [Concrete Table Inheritance](https://web.archive.org/web/20241124225353/https://www.martinfowler.com/eaaCatalog/concreteTableInheritance.html)
+* [Identity Field](https://martinfowler.com/eaaCatalog/identityField.html)
+* [Inheritance Mappers](https://www.martinfowler.com/eaaCatalog/inheritanceMappers.html)
+* [Foreign Key Mapping](https://martinfowler.com/eaaCatalog/foreignKeyMapping.html)
+* [Association Table Mapping](https://martinfowler.com/eaaCatalog/associationTableMapping.html)
+* [Dependent Mapping](https://martinfowler.com/eaaCatalog/dependentMapping.html)
+* [Embedded Value](https://www.martinfowler.com/eaaCatalog/embeddedValue.html)
+* [Serialized LOB](https://martinfowler.com/eaaCatalog/serializedLOB.html)
+* [Single Table Inheritance](https://www.martinfowler.com/eaaCatalog/singleTableInheritance.html)
+* [Class Table Inheritance](https://martinfowler.com/eaaCatalog/classTableInheritance.html)
+* [Concrete Table Inheritance](https://www.martinfowler.com/eaaCatalog/concreteTableInheritance.html)
 
 Object-Relational Metadata Mapping Patterns: 
-* [Metadata Mapping](https://web.archive.org/web/20250426164917/https://martinfowler.com/eaaCatalog/metadataMapping.html)
-* [Query Object](https://web.archive.org/web/20250502015402/https://martinfowler.com/eaaCatalog/queryObject.html)
-* [Repository](https://web.archive.org/web/20250529113523/https://www.martinfowler.com/eaaCatalog/repository.html)
+* [Metadata Mapping](https://martinfowler.com/eaaCatalog/metadataMapping.html)
+* [Query Object](https://martinfowler.com/eaaCatalog/queryObject.html)
+* [Repository](https://www.martinfowler.com/eaaCatalog/repository.html)
   
 Web Presentation Patterns: 
-* [Model View Controller](https://web.archive.org/web/20250524003943/https://martinfowler.com/eaaCatalog/modelViewController.html)
-* [Page Controller](https://web.archive.org/web/20250512114121/https://martinfowler.com/eaaCatalog/pageController.html)
-* [Front Controller](https://web.archive.org/web/20250512114120/https://martinfowler.com/eaaCatalog/frontController.html)
-* [Template View](https://web.archive.org/web/20250113123213/https://www.martinfowler.com/eaaCatalog/templateView.html)
-* [Transform View](https://web.archive.org/web/20250522155650/https://martinfowler.com/eaaCatalog/transformView.html)
-* [Two-Step View](https://web.archive.org/web/20250523190832/https://martinfowler.com/eaaCatalog/twoStepView.html)
-* [Application Controller](https://web.archive.org/web/20250522055411/https://martinfowler.com/eaaCatalog/applicationController.html)
+* [Model View Controller](https://martinfowler.com/eaaCatalog/modelViewController.html)
+* [Page Controller](https://martinfowler.com/eaaCatalog/pageController.html)
+* [Front Controller](https://martinfowler.com/eaaCatalog/frontController.html)
+* [Template View](https://www.martinfowler.com/eaaCatalog/templateView.html)
+* [Transform View](https://martinfowler.com/eaaCatalog/transformView.html)
+* [Two-Step View](https://martinfowler.com/eaaCatalog/twoStepView.html)
+* [Application Controller](https://martinfowler.com/eaaCatalog/applicationController.html)
   
 <!--
 MVCs
@@ -265,36 +265,36 @@ MVCs
 -->
 
 Distribution Patterns: 
-* [Remote Facade](https://web.archive.org/web/20250523085248/https://martinfowler.com/eaaCatalog/remoteFacade.html)
-* [Data Transfer Object](https://web.archive.org/web/20250522204517/https://martinfowler.com/eaaCatalog/dataTransferObject.html)
+* [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html)
+* [Data Transfer Object](https://martinfowler.com/eaaCatalog/dataTransferObject.html)
 
 Offline Concurrency Patterns: 
-* [Optimistic Offline Lock](https://web.archive.org/web/20250521190739/https://martinfowler.com/eaaCatalog/optimisticOfflineLock.html)
-* [Pessimistic Offline Lock](https://web.archive.org/web/20250522061953/https://martinfowler.com/eaaCatalog/pessimisticOfflineLock.html)
-* [Coarse Grained Lock](https://web.archive.org/web/20250522031447/https://martinfowler.com/eaaCatalog/coarseGrainedLock.html)
-* [Implicit Lock](https://web.archive.org/web/20250323205928/https://martinfowler.com/eaaCatalog/implicitLock.html)
+* [Optimistic Offline Lock](https://martinfowler.com/eaaCatalog/optimisticOfflineLock.html)
+* [Pessimistic Offline Lock](https://martinfowler.com/eaaCatalog/pessimisticOfflineLock.html)
+* [Coarse Grained Lock](https://martinfowler.com/eaaCatalog/coarseGrainedLock.html)
+* [Implicit Lock](https://martinfowler.com/eaaCatalog/implicitLock.html)
   
 Session State Patterns: 
-* [Client Session State](https://web.archive.org/web/20250522003424/https://martinfowler.com/eaaCatalog/clientSessionState.html)
-* [Server Session State](https://web.archive.org/web/20250523170918/https://martinfowler.com/eaaCatalog/serverSessionState.html)
-* [Database Session State](https://web.archive.org/web/20250522160430/https://martinfowler.com/eaaCatalog/databaseSessionState.html)
+* [Client Session State](https://martinfowler.com/eaaCatalog/clientSessionState.html)
+* [Server Session State](https://martinfowler.com/eaaCatalog/serverSessionState.html)
+* [Database Session State](https://martinfowler.com/eaaCatalog/databaseSessionState.html)
 
 <!--
 See O'Reilly Media
 -->
   
 Base Patterns: 
-* [Gateway](https://web.archive.org/web/20250523213758/https://martinfowler.com/eaaCatalog/gateway.html)
-* [Service Stub](https://web.archive.org/web/20250522170313/https://martinfowler.com/eaaCatalog/serviceStub.html)
-* [Record Set](https://web.archive.org/web/20250522194533/https://martinfowler.com/eaaCatalog/recordSet.html)
-* [Mapper](https://web.archive.org/web/20250522091752/https://martinfowler.com/eaaCatalog/mapper.html)
-* [Layer Supertype](https://web.archive.org/web/20250522052150/https://martinfowler.com/eaaCatalog/layerSupertype.html)
-* [Separated Interface](https://web.archive.org/web/20250429171221/https://martinfowler.com/eaaCatalog/separatedInterface.html)
-* [Registry](https://web.archive.org/web/20250523163235/https://www.martinfowler.com/eaaCatalog/registry.html)
-* [Value Object](https://web.archive.org/web/20250522103810/https://martinfowler.com/eaaCatalog/valueObject.html)
-* [Money](https://web.archive.org/web/20250603152517/https://martinfowler.com/eaaCatalog/money.html)
-* [Special Case](https://web.archive.org/web/20250414025144/https://martinfowler.com/eaaCatalog/specialCase.html)
-* [Plugin](https://web.archive.org/web/20250523073620/https://www.martinfowler.com/eaaCatalog/plugin.html)
+* [Gateway](https://martinfowler.com/eaaCatalog/gateway.html)
+* [Service Stub](https://martinfowler.com/eaaCatalog/serviceStub.html)
+* [Record Set](https://martinfowler.com/eaaCatalog/recordSet.html)
+* [Mapper](https://martinfowler.com/eaaCatalog/mapper.html)
+* [Layer Supertype](https://martinfowler.com/eaaCatalog/layerSupertype.html)
+* [Separated Interface](https://martinfowler.com/eaaCatalog/separatedInterface.html)
+* [Registry](https://www.martinfowler.com/eaaCatalog/registry.html)
+* [Value Object](https://martinfowler.com/eaaCatalog/valueObject.html)
+* [Money](https://martinfowler.com/eaaCatalog/money.html)
+* [Special Case](https://martinfowler.com/eaaCatalog/specialCase.html)
+* [Plugin](https://www.martinfowler.com/eaaCatalog/plugin.html)
 
 <!--
 See O'Reilly Media for Layer Supertype and maybe others after
@@ -551,7 +551,7 @@ About the Author
 
 Martin Fowler, Refactoring, Patterns, ThoughtWorks
 * [Martin Fowler: Refactoring 2nd Edition](https://martinfowler.com/articles/refactoring-2nd-ed.html)
-* [Refactoring Catalog](https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/)
+* [Refactoring Catalog](https://refactoring.com/catalog/)
 
 ### Refactoring Patterns
 
@@ -579,95 +579,95 @@ split-phase
 variables
 -->
 
-* [Change Function Declaration (a.k.a. Add Parameter, Change Signature, Remove Parameter, Rename Function, Rename Method)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeFunctionDeclaration.html)
-* [Collapse Hierarchy](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/collapseHierarchy.html)
-* [Combine Functions into Class](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/combineFunctionsIntoClass.html)
-* [Combine Functions into Transform](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/combineFunctionsIntoTransform.html)
-* [Consolidate Conditional Expression](https://web.archive.org/web/20250624061526/https://www.refactoring.com/catalog/consolidateConditionalExpression.html)
-* [Decompose Conditional](https://web.archive.org/web/20250624061526/https://www.refactoring.com/catalog/decomposeConditional.html)
-* [Encapsulate Collection](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateCollection.html)
-* [Encapsulate Record (a.k.a. Replace Record with Data Class)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateRecord.html)
-* [Encapsulate Variable (a.k.a. Encapsulate Field, Self-Encapsulate Field)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/encapsulateVariable.html)
-* [Extract Superclass](https://web.archive.org/web/20250624061522/https://www.refactoring.com/catalog/extractSuperclass.html)
-* [Introduce Assertion](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceAssertion.html)
-* [Introduce Parameter Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceParameterObject.html)
-* [Introduce Special Case (a.k.a Introduce Null Object)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/introduceSpecialCase.html)
-* [Move Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveField.html)
-* [Move Function/Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveFunction.html)
-* [Parameterize Function/Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/parameterizeFunction.html)
-* [Preserve Whole Object](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/preserveWholeObject.html)
-* [Pull Up Constructor Body](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pullUpConstructorBody.html)
-* [Remove Dead Code](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeDeadCode.html)
-* [Remove Flag Argument (a.k.a. Replace Parameter with Explicit Methods)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeFlagArgument.html)
-* [Remove Setting Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeSettingMethod.html)
-* [Rename Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/renameField.html)
-* [Rename Variable](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/renameVariable.html)
-* [Replace Conditional with Polymorphism](https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/replaceConditionalWithPolymorphism.html)
-* [Replace Constructor with Factory Function (a.k.a. Replace Constructor with Factory Method)](https://web.archive.org/web/20250524125205/https://refactoring.com/catalog/replaceConstructorWithFactoryFunction.html)
-* [Replace Control Flag with Break (a.k.a. Remove Control Flag)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceControlFlagWithBreak.html)
-* [Replace Derived Variable with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceDerivedVariableWithQuery.html)
-* [Replace Error Code with Exception](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceErrorCodeWithException.html)
-* [Replace Exception with Precheck (a.k.a. Replace Exception with Test)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceExceptionWithPrecheck.html)
-* [Replace Inline Code with Function Call](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceInlineCodeWithFunctionCall.html)
-* [Replace Loop with Pipeline](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceLoopWithPipeline.html)
-* [Replace Magic Literal (a.k.a. Replace Magic Number with Symbolic Constant)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceMagicLiteral.html)
-* [Replace Nested Conditional with Guard Clauses](https://web.archive.org/web/20250611154543/https://www.refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)
-* [Replace Primitive with Object (a.k.a. Replace Data Value with Object, Replace Type Code with Class)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replacePrimitiveWithObject.html)
-* [Replace Subclass with Delegate](https://web.archive.org/web/20250528181851/https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
-* [Replace Superclass with Delegate (a.k.a. Replace Inheritance with Delegation)](https://web.archive.org/web/20250528181851/https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
-* [Replace Temp with Query](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceTempWithQuery.html)
-* [Return Modified Value](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/returnModifiedValue.html)
-* [Separate Query from Modifier](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/separateQueryFromModifier.html)
-* [Slide Statements (a.k.a. Consolidate Duplicate Conditional Fragments)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/slideStatements.html)
-* [Split Loop](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitLoop.html)
-* [Split Phase](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitPhase.html)
+* [Change Function Declaration (a.k.a. Add Parameter, Change Signature, Remove Parameter, Rename Function, Rename Method)](https://refactoring.com/catalog/changeFunctionDeclaration.html)
+* [Collapse Hierarchy](https://refactoring.com/catalog/collapseHierarchy.html)
+* [Combine Functions into Class](https://refactoring.com/catalog/combineFunctionsIntoClass.html)
+* [Combine Functions into Transform](https://refactoring.com/catalog/combineFunctionsIntoTransform.html)
+* [Consolidate Conditional Expression](https://www.refactoring.com/catalog/consolidateConditionalExpression.html)
+* [Decompose Conditional](https://www.refactoring.com/catalog/decomposeConditional.html)
+* [Encapsulate Collection](https://refactoring.com/catalog/encapsulateCollection.html)
+* [Encapsulate Record (a.k.a. Replace Record with Data Class)](https://refactoring.com/catalog/encapsulateRecord.html)
+* [Encapsulate Variable (a.k.a. Encapsulate Field, Self-Encapsulate Field)](https://refactoring.com/catalog/encapsulateVariable.html)
+* [Extract Superclass](https://www.refactoring.com/catalog/extractSuperclass.html)
+* [Introduce Assertion](https://refactoring.com/catalog/introduceAssertion.html)
+* [Introduce Parameter Object](https://refactoring.com/catalog/introduceParameterObject.html)
+* [Introduce Special Case (a.k.a Introduce Null Object)](https://refactoring.com/catalog/introduceSpecialCase.html)
+* [Move Field](https://refactoring.com/catalog/moveField.html)
+* [Move Function/Method](https://refactoring.com/catalog/moveFunction.html)
+* [Parameterize Function/Method](https://refactoring.com/catalog/parameterizeFunction.html)
+* [Preserve Whole Object](https://refactoring.com/catalog/preserveWholeObject.html)
+* [Pull Up Constructor Body](https://refactoring.com/catalog/pullUpConstructorBody.html)
+* [Remove Dead Code](https://refactoring.com/catalog/removeDeadCode.html)
+* [Remove Flag Argument (a.k.a. Replace Parameter with Explicit Methods)](https://refactoring.com/catalog/removeFlagArgument.html)
+* [Remove Setting Method](https://refactoring.com/catalog/removeSettingMethod.html)
+* [Rename Field](https://refactoring.com/catalog/renameField.html)
+* [Rename Variable](https://refactoring.com/catalog/renameVariable.html)
+* [Replace Conditional with Polymorphism](https://refactoring.com/catalog/replaceConditionalWithPolymorphism.html)
+* [Replace Constructor with Factory Function (a.k.a. Replace Constructor with Factory Method)](https://refactoring.com/catalog/replaceConstructorWithFactoryFunction.html)
+* [Replace Control Flag with Break (a.k.a. Remove Control Flag)](https://refactoring.com/catalog/replaceControlFlagWithBreak.html)
+* [Replace Derived Variable with Query](https://refactoring.com/catalog/replaceDerivedVariableWithQuery.html)
+* [Replace Error Code with Exception](https://refactoring.com/catalog/replaceErrorCodeWithException.html)
+* [Replace Exception with Precheck (a.k.a. Replace Exception with Test)](https://refactoring.com/catalog/replaceExceptionWithPrecheck.html)
+* [Replace Inline Code with Function Call](https://refactoring.com/catalog/replaceInlineCodeWithFunctionCall.html)
+* [Replace Loop with Pipeline](https://refactoring.com/catalog/replaceLoopWithPipeline.html)
+* [Replace Magic Literal (a.k.a. Replace Magic Number with Symbolic Constant)](https://refactoring.com/catalog/replaceMagicLiteral.html)
+* [Replace Nested Conditional with Guard Clauses](https://www.refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)
+* [Replace Primitive with Object (a.k.a. Replace Data Value with Object, Replace Type Code with Class)](https://refactoring.com/catalog/replacePrimitiveWithObject.html)
+* [Replace Subclass with Delegate](https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
+* [Replace Superclass with Delegate (a.k.a. Replace Inheritance with Delegation)](https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
+* [Replace Temp with Query](https://refactoring.com/catalog/replaceTempWithQuery.html)
+* [Return Modified Value](https://refactoring.com/catalog/returnModifiedValue.html)
+* [Separate Query from Modifier](https://refactoring.com/catalog/separateQueryFromModifier.html)
+* [Slide Statements (a.k.a. Consolidate Duplicate Conditional Fragments)](https://refactoring.com/catalog/slideStatements.html)
+* [Split Loop](https://refactoring.com/catalog/splitLoop.html)
+* [Split Phase](https://refactoring.com/catalog/splitPhase.html)
 
 Eliminate re-assignment
-* [Split Variable (a.k.a. Remove Assignments to Parameters, Split Temp)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/splitVariable.html)
+* [Split Variable (a.k.a. Remove Assignments to Parameters, Split Temp)](https://refactoring.com/catalog/splitVariable.html)
 
 Once the method is broken down, introduce a clearer algorithm
-* [Substitute Algorithm](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/substituteAlgorithm.html)
+* [Substitute Algorithm](https://refactoring.com/catalog/substituteAlgorithm.html)
 
 Inverse
-* [Change Reference to Value](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeReferenceToValue.html)
-* [Change Value to Reference](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeValueToReference.html)
+* [Change Reference to Value](https://refactoring.com/catalog/changeReferenceToValue.html)
+* [Change Value to Reference](https://refactoring.com/catalog/changeValueToReference.html)
 
 Inverse
-* [Extract Class](https://web.archive.org/web/20250526085525/https://refactoring.com/catalog/extractClass.html)
-* [Inline Class](https://web.archive.org/web/20250526111544/https://refactoring.com/catalog/inlineClass.html)
+* [Extract Class](https://refactoring.com/catalog/extractClass.html)
+* [Inline Class](https://refactoring.com/catalog/inlineClass.html)
 
 Inverse
-* [Extract Function/Method](https://web.archive.org/web/20250627052515/https://refactoring.com/catalog/extractFunction.html)
-* [Inline Function/Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/inlineFunction.html)
+* [Extract Function/Method](https://refactoring.com/catalog/extractFunction.html)
+* [Inline Function/Method](https://refactoring.com/catalog/inlineFunction.html)
 
 Inverse
-* [Extract Variable (a.k.a. Introduce Explaining Variable)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/extractVariable.html)
-* [Inline Variable (a.k.a. Inline Temp)](https://web.archive.org/web/20250216090838/https://refactoring.com/catalog/inlineVariable.html)
+* [Extract Variable (a.k.a. Introduce Explaining Variable)](https://refactoring.com/catalog/extractVariable.html)
+* [Inline Variable (a.k.a. Inline Temp)](https://refactoring.com/catalog/inlineVariable.html)
 
 Inverse
-* [Hide Delegate](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/hideDelegate.html)
-* [Remove Middle Man](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeMiddleMan.html)
+* [Hide Delegate](https://refactoring.com/catalog/hideDelegate.html)
+* [Remove Middle Man](https://refactoring.com/catalog/removeMiddleMan.html)
 
 Inverse
-* [Move Statements into Function](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/moveStatementsIntoFunction.html)
-* [Move Statements to Callers](https://web.archive.org/web/20250518232743/https://www.refactoring.com/catalog/moveStatementsToCallers.html)
+* [Move Statements into Function](https://refactoring.com/catalog/moveStatementsIntoFunction.html)
+* [Move Statements to Callers](https://www.refactoring.com/catalog/moveStatementsToCallers.html)
 
 Inverse
-* [Pull Up Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pullUpField.html)
-* [Push Down Field](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pushDownField.html)
+* [Pull Up Field](https://refactoring.com/catalog/pullUpField.html)
+* [Push Down Field](https://refactoring.com/catalog/pushDownField.html)
 
 Inverse
-* [Pull Up Method](https://web.archive.org/web/20250624061522/https://www.refactoring.com/catalog/pullUpMethod.html)
-* [Push Down Method](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/pushDownMethod.html)
+* [Pull Up Method](https://www.refactoring.com/catalog/pullUpMethod.html)
+* [Push Down Method](https://refactoring.com/catalog/pushDownMethod.html)
 
 Inverse
-* [Remove Subclass (a.k.a. Replace Subclass with Fields)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/removeSubclass.html)
-* [Replace Type Code with Subclasses (a.k.a. Replace Type Code with State/Strategy, Extract Subclass)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceTypeCodeWithSubclasses.html)
+* [Remove Subclass (a.k.a. Replace Subclass with Fields)](https://refactoring.com/catalog/removeSubclass.html)
+* [Replace Type Code with Subclasses (a.k.a. Replace Type Code with State/Strategy, Extract Subclass)](https://refactoring.com/catalog/replaceTypeCodeWithSubclasses.html)
 
 Inverse
-* [Replace Command with Function](https://web.archive.org/web/20250618112358/https://refactoring.com/catalog/replaceCommandWithFunction.html)
-* [Replace Function with Command (a.k.a. replace Method with Method Object)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceFunctionWithCommand.html)
+* [Replace Command with Function](https://refactoring.com/catalog/replaceCommandWithFunction.html)
+* [Replace Function with Command (a.k.a. replace Method with Method Object)](https://refactoring.com/catalog/replaceFunctionWithCommand.html)
 
 Inverse
-* [Replace Parameter with Query (a.k.a. Replace Parameter with Method)](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceParameterWithQuery.html)
-* [Replace Query with Parameter](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceQueryWithParameter.html)
+* [Replace Parameter with Query (a.k.a. Replace Parameter with Method)](https://refactoring.com/catalog/replaceParameterWithQuery.html)
+* [Replace Query with Parameter](https://refactoring.com/catalog/replaceQueryWithParameter.html)
