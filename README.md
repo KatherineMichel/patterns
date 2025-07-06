@@ -7,6 +7,12 @@
 * [Kent Beck](https://www.linkedin.com/in/kentbeck/)
 * [Martin Fowler](https://martinfowler.com/)
 * [Robert C. Martin](http://blog.cleancoder.com)
+
+<!--
+Checklists and Cheat Sheets
+* [Code Complete Checklist](https://www.matthewjmiller.net/files/cc2e_checklists.pdf)
+* [Clean Code Cheat Sheet](https://github.com/charlax/professional-programming/blob/master/cheatsheets/Clean-Code-V2.4.pdf)
+-->
   
 ## Architectural Styles
 
@@ -48,20 +54,53 @@ Various
 * [Layered (Multitier) Architecture Wikipedia](https://en.wikipedia.org/wiki/Multitier_architecture)
 * [Microservices Wikipedia](https://en.wikipedia.org/wiki/Microservices)
 * [Monolith Application Wikipedia](https://en.wikipedia.org/wiki/Monolithic_application)
+* [Multitenancy Wikipedia](https://en.wikipedia.org/wiki/Multitenancy)
 * [Pipeline (Pipes and Filters) Wikipedia](https://en.wikipedia.org/wiki/Pipeline_(software))
 * [Plug-ins Wikipedia](https://en.wikipedia.org/wiki/Plug-in_(computing))
 * [Publish-subscribe Pattern Wikipedia](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
+* [Resource-oriented Architecture Wikipedia](https://en.wikipedia.org/wiki/Resource-oriented_architecture)
 * [Service-oriented Architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture)
 * [Space-based Architecture Wikipedia](https://en.wikipedia.org/wiki/Space-based_architecture)
 
-### Architectural Characteristics and Design Principles
+<!--
+* [Micro Architecture Wikipedia](https://en.wikipedia.org/wiki/Microarchitecture)
+-->
+
+### Distributed Computing
+
+* [Distributed Computing Wikipedia](https://en.wikipedia.org/wiki/Distributed_computing)
+
+<!--
+https://web.archive.org/web/20250629064930/https://martinfowler.com/articles/patterns-of-distributed-systems/
+-->
+
+### General Architectural Characteristics
 
 Miscellaneous Characteristics
 * [Separation of Concerns Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
 * [Dependency Inversion Principle Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 * [Loose Coupling Wikipedia](https://en.wikipedia.org/wiki/Loose_coupling)
 
-Software Principles (SOLID)
+<!--
+https://en.wikipedia.org/wiki/Dependency_inversion_principle | Dependency inversion principle - Wikipedia
+https://en.wikipedia.org/wiki/Dependency_injection
+https://en.wikipedia.org/wiki/Inversion_of_control
+https://en.wikipedia.org/wiki/Interface_(computing)
+-->
+
+### Object-Oriented Software Characteristics and Principles
+
+Object Oriented Software Characteristics
+* [Abstraction Wikipedia](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
+* [Encapsulation Wikipedia](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
+* [Inheritance Wikipedia](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
+* [Polymorphism Wikipedia](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
+
+<!--
+Composition versus Inheritance... see Brandon Rhodes Python Patterns Guide
+-->
+
+SOLID Object-Oriented Principles
 * [SOLID (Object Oriented Design) Wikipedia](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
 * [Single Responsibility Principle Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 * [Separation of Concerns Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
@@ -70,7 +109,7 @@ Software Principles (SOLID)
 * [Interface Segregation Principle Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 * [Dependency Inversion Principle Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
-GRASP Principles
+GRASP Object Oriented Principles
 * [General Responsibility Assignment Software Patterns (or Principles) (GRASP) Wikipedia](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
 * Controller
 * Creator
@@ -373,6 +412,15 @@ https://www.enterpriseintegrationpatterns.com/patterns/messaging/Future.html
 * [Brandon Rhodes: Python Patterns Guide](http://python-patterns.guide) and [Brandon Rhodes: Python Patterns Guide GitHub](https://github.com/brandon-rhodes/python-patterns)
 * [The Catalogue of Python Examples](https://refactoring.guru/design-patterns/python)
 
+<!--
+https://www.youtube.com/watch?v=S0No2zSJmks | (41) When Python Practices Go Wrong - Brandon Rhodes - code::dive 2019 - YouTube
+https://www.youtube.com/watch?v=Er5K_nR5lDQ&t=1045s | Python Design Patterns 1 - YouTube
+http://rhodesmill.org/brandon/talks/#design-patterns-1 | Talks
+http://rhodesmill.org/brandon/slides/2012-07-pyohio/ | slides.rst
+
+https://www.pyohio.org/2018/schedule/presentation/17/ | PyOhio | Presentation: You Don't Need That!
+-->
+
 ### Design Patterns Built Into Python
 
 Creational Patterns (object creation)
@@ -383,6 +431,10 @@ Behavioral Patterns
 * [Iterator Pattern Wikipedia Article](https://en.wikipedia.org/wiki/Iterator_pattern)
 
 ### Gang of Four Design Patterns
+
+<!--
+https://refactoring.guru/design-patterns/ | Design Patterns
+-->
 
 Gang of Four (GoF) Book
 * [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
@@ -426,3 +478,231 @@ Behavioral Patterns
 * [Chain-of-Responsibility Pattern (handler, similar to Decorator Pattern) Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 
 ## Code Patterns
+
+### Tidy First
+
+<!--
+## Tidy First?
+
+I. Tidyings
+1. Guard Clauses: https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html
+2. Dead Code: https://refactoring.com/catalog/removeDeadCode.html
+3. Normalize Symmetries
+4. New Interface, Old Implementation
+5. Reading Order
+6. Cohesion Order
+7. Move Declaration and Initialization Together
+8. Explaining Variables
+9. Explaining Constants
+10. Explicit Parameters
+11. Chunk Statements
+12. Extract Helper
+13. One Pile
+14. Explaining Comments
+15. Delete Redundant Comments
+
+II. Managing
+17. Separate Tidying
+18. Chaining
+Conclusion
+
+19. Batch Sizes
+20. Rhythm
+21. Getting Untangled
+22. First, After, Later, Never
+Summary
+
+III. Theory
+23. Beneficially Relating Elements
+24. Structure and Behavior
+25. Economics: Time Value and Optionality
+26. A Dollar Today > A Dollar Tomorrow
+27. Options
+28. Options Versus Cash Flows
+29. Reversible Structure Changes
+30. Coupling
+31. Constantine’s Equivalence
+32. Coupling Versus Decoupling
+33. Cohesion
+34. Conclusion
+    
+Appendix. Annotated Reading List and References
+Index
+About the Author
+-->
+
+### Refactoring
+
+Martin Fowler, Refactoring, Patterns, ThoughtWorks
+* [Martin Fowler: Refactoring 2nd Edition](https://martinfowler.com/articles/refactoring-2nd-ed.html)
+
+<!--
+* [Refactoring Catalog](https://refactoring.com/catalog/)
+https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/
+-->
+
+<!--
+Tags
+basic
+encapsulation
+moving-features
+organizing-data
+simplify-conditional-logic
+refactoring-apis
+dealing-with-inheritance
+collections
+delegation
+errors
+extract
+parameters
+fragments
+grouping-function
+immutability
+inline
+remove
+rename
+split-phase
+variables
+
+Change Function Declaration
+• Add Parameter 
+• Change Signature 
+• Remove Parameter 
+• Rename Function 
+• Rename Method
+
+Inverse
+Change Reference to Value
+Change Value to Reference
+
+Collapse Hierarchy
+Combine Functions into Class
+Combine Functions into Transform
+Consolidate Conditional Expression
+Decompose Conditional
+Encapsulate Collection
+Encapsulate Record
+• Replace Record with Data Class
+
+Encapsulate Variable
+• Encapsulate Field 
+• Self-Encapsulate Field
+
+Inverse
+Extract Class
+Inline Class
+
+Inverse
+Extract Function
+Inline Function
+• Inline Method
+
+Extract Method
+
+Extract Superclass
+
+Inverse
+Extract Variable
+• Introduce Explaining Variable
+Inline Variable
+• Inline Temp
+
+Inverse
+Hide Delegate
+Remove Middle Man
+
+Introduce Assertion
+Introduce Parameter Object
+Introduce Special Case
+• Introduce Null Object
+
+Move Field
+Move Function
+• Move Method
+
+Inverse
+Move Statements into Function
+Move Statements to Callers
+
+Parameterize Function
+• Parameterize Method
+
+Preserve Whole Object
+Pull Up Constructor Body
+
+Inverse
+Pull Up Field
+Push Down Field
+
+Inverse
+Pull Up Method
+Push Down Method
+
+Remove Dead Code
+Remove Flag Argument
+• Replace Parameter with Explicit Methods
+
+Remove Setting Method
+
+Inverse
+Remove Subclass
+• Replace Subclass with Fields
+Replace Type Code with Subclasses
+• Extract Subclass 
+• Replace Type Code with State/Strategy
+
+Rename Field
+Rename Variable
+
+Inverse
+Replace Command with Function
+Replace Function with Command
+• Replace Method with Method Object
+
+Replace Conditional with Polymorphism
+Replace Constructor with Factory Function
+• Replace Constructor with Factory Method
+
+Replace Control Flag with Break
+• Remove Control Flag
+
+Replace Derived Variable with Query
+Replace Error Code with Exception
+Replace Exception with Precheck
+• Replace Exception with Test
+
+Replace Inline Code with Function Call
+Replace Loop with Pipeline
+Replace Magic Literal
+• Replace Magic Number with Symbolic Constant
+
+Replace Nested Conditional with Guard Clauses
+
+Inverse
+Replace Parameter with Query
+• Replace Parameter with Method
+Replace Query with Parameter
+
+Replace Primitive with Object
+• Replace Data Value with Object 
+• Replace Type Code with Class
+
+Replace Subclass with Delegate
+Replace Superclass with Delegate
+• Replace Inheritance with Delegation
+
+Replace Temp with Query
+
+Return Modified Value
+Separate Query from Modifier
+Slide Statements
+• Consolidate Duplicate Conditional Fragments
+
+Split Loop
+Split Phase
+Split Variable
+• Remove Assignments to Parameters 
+• Split Temp
+
+Substitute Algorithm
+-->
