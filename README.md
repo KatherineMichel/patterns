@@ -199,15 +199,12 @@ An index in the write-ahead log showing which portion of the log can be discarde
 ### General Architectural Characteristics
 
 Miscellaneous Characteristics
-* [Separation of Concerns Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
+* [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)
 * [Dependency Inversion Principle Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+* [Interface Wikipedia](https://en.wikipedia.org/wiki/Interface_(computing))
+* [Inversion of Control Wikipedia](https://en.wikipedia.org/wiki/Inversion_of_control)
 * [Loose Coupling Wikipedia](https://en.wikipedia.org/wiki/Loose_coupling)
-
-<!--
-https://en.wikipedia.org/wiki/Dependency_injection
-https://en.wikipedia.org/wiki/Inversion_of_control
-https://en.wikipedia.org/wiki/Interface_(computing)
--->
+* [Separation of Concerns Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
 
 ### Object-Oriented Software Characteristics and Principles
 
@@ -248,9 +245,9 @@ See notes in Wikipedia
 
 ## Architectural Patterns
 
+<!--
 ### Miscellaneous
 
-<!--
 Three-tier
 Microkernel
 Model-View-Controller
@@ -604,10 +601,11 @@ Behavioral Patterns
 
 ## Code Patterns
 
-### Tidy First
+### Tidy First?
+
+* [Tidy First?: A Personal Exercise in Empirical Software Design by Kent Beck](https://www.amazon.com/Tidy-First-Personal-Exercise-Empirical/dp/1098151240)
 
 <!--
-https://www.amazon.com/Tidy-First-Personal-Exercise-Empirical/dp/1098151240/ref=zg_bs_g_132555011_d_sccl_1/140-3492681-6208117?psc=1 | Tidy First?: A Personal Exercise in Empirical Software Design: Beck, Kent, Constantine, Larry: 9781098151249: Amazon.com: Books
 https://www.oreilly.com/library/view/tidy-first/9781098151232/ | Tidy First? [Book]
 
 ## Tidy First?
@@ -663,11 +661,7 @@ About the Author
 
 Martin Fowler, Refactoring, Patterns, ThoughtWorks
 * [Martin Fowler: Refactoring 2nd Edition](https://martinfowler.com/articles/refactoring-2nd-ed.html)
-
-<!--
-* [Refactoring Catalog](https://refactoring.com/catalog/)
-https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/
--->
+* [Refactoring Catalog](https://web.archive.org/web/20250623123242/https://refactoring.com/catalog/)
 
 <!--
 Tags
@@ -691,6 +685,7 @@ remove
 rename
 split-phase
 variables
+-->
 
 [Change Function Declaration](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/changeFunctionDeclaration.html)
 • Aliases: Add Parameter, Change Signature, Remove Parameter, Rename Function, Rename Method
@@ -793,9 +788,9 @@ Inverse
 [Replace Exception with Precheck](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceExceptionWithPrecheck.html)
 • Alias: Replace Exception with Test
 
-Replace Inline Code with Function Call
-Replace Loop with Pipeline
-Replace Magic Literal
+[Replace Inline Code with Function Call](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceInlineCodeWithFunctionCall.html)
+[Replace Loop with Pipeline](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceLoopWithPipeline.html)
+[Replace Magic Literal](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/replaceMagicLiteral.html)
 • Alias: Replace Magic Number with Symbolic Constant
 
 [Replace Nested Conditional with Guard Clauses](https://web.archive.org/web/20250611154543/https://www.refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)
@@ -827,4 +822,3 @@ Inverse
 • Alias: Split Temp
 
 [Substitute Algorithm](https://web.archive.org/web/20250608171359/https://refactoring.com/catalog/substituteAlgorithm.html)
--->
